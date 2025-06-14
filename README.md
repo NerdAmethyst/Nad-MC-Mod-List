@@ -37,17 +37,27 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Utility Mods](#Utility-Mods)
 - [Exploration & WorldGen](#Exploration--WorldGEn)
 
+---
+
 ## Libraries & APIs
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
+
 ## Optimization
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
+
+[🔙Categories](#Categories)
+[🔙Lists](#Lists)
 
 ## Optifine Alternatives
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
@@ -86,7 +96,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-[🔙Categories](#Categotries)
+[🔙Categories](#Categories)
 [🔙Lists](#Lists)
 
 ---
