@@ -31,10 +31,23 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Optimization](#Optimization)
 - [Optifine Alternatives](#Optifine-Alternatives)
 - [Quality of Life (QOL)](#Quality-of-Life-Mods-QOL)
+- [Vanilla+](#Vanilla+)
+- [Visual Mods](#Visual-Mods)
+- [Auditory Mods](#Auditory-Mods)
+- [Utility Mods](Utility-Mods)
+- [Exploration & WorldGen](Exploration--WorldGEn)
+
+---
 
 ### Libraries & APIs
-
+### Optimization
+### Optifine Alternatives
 ### Quality of Life Mods (QOL)
+### Vanilla+
+### Visual Mods
+### Auditory Mods 
+### Utility Mods
+### Exploration & WorldGen
 
 ## Shaders
 ## Resource Packs
