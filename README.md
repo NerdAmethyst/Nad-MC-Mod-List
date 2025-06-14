@@ -41,40 +41,53 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Optimization
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Optifine Alternatives
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Quality of Life Mods (QOL)
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Vanilla+
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Visual Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Auditory Mods 
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Utility Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
 ## Exploration & WorldGen
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
+| :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
+---
+
+[🔙Categories](#Categotries)
+[🔙Lists](#Lists)
 
 ---
 
