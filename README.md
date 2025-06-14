@@ -1,4 +1,4 @@
-# Nad-s-Mod-List
+# **Nad-s-Mod-List**
 
 Personal list of mods, shader, data packs, & resource packs I use for Minecraft gameplay.
 
@@ -16,7 +16,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-# Lists
+# **Lists**
 - [Mods](#Mod-List)
 - [Shaders](#Shaders)
 - [Resource Packs](#Resource-Packs)
@@ -24,7 +24,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-# Mod List
+# **Mod List**
 
 ## Categories
 - [Libraries & APIs](#Libraries--APIs)
