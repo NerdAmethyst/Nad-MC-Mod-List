@@ -40,7 +40,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ## Libraries & APIs
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | MaxNeedsSnacks(https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
 
 ## Optimization
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
