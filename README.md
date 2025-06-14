@@ -56,48 +56,78 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
-[🔙Categories](#Categories)
-[🔙Lists](#Lists)
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
 
 ## Optifine Alternatives
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
+
 ## Quality of Life Mods (QOL)
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
+
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
 
 ## Vanilla+
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
+
 ## Visual Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
+
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
 
 ## Auditory Mods 
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
+
 ## Utility Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
+
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
+
+---
 
 ## Exploration & WorldGen
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | :--: | :----: | REPLACE_MC_ | :----: | :------: | :---------- | :----------: |
 
----
-
-[🔙Categories](#Categories)
-[🔙Lists](#Lists)
+###### [Mod Categories⬅️](#Categories)<br>
+###### [Back to Lists⬅️](#Lists)
 
 ---
 
