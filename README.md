@@ -18,19 +18,19 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Lists
 - [Mods](#Mod-List)
-- [Shaders](##Shaders)
-- [Resource Packs](##Resource-Packs)
-- [Datapacks](##Datapacks)
+- [Shaders](#Shaders)
+- [Resource Packs](#Resource-Packs)
+- [Datapacks](#Datapacks)
 
 ---
 
 ## Mod List
 
 ### Categories
-- [Libraries & APIs](###Libraries-&-APIs)
-- [Optimization](###Optimization)
-- [Optifine Alternatives](###Optifine-Alternatives)
-- [QOL](###Quality-of-Life-Mods-(/QOL)/)
+- [Libraries & APIs](#Libraries-&-APIs)
+- [Optimization](#Optimization)
+- [Optifine Alternatives](#Optifine-Alternatives)
+- [QOL](#Quality-of-Life-Mods-(/QOL)/)
 
 
 ### Quality of Life Mods (QOL)
