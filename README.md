@@ -44,7 +44,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ## Optimization
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
-| [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | REPLACE_MC_badoptimizations  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
+| [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.19.1, 1.19.2, 1.19.3, 1.19.4, 1.20.1, 1.20.2, 1.20.3, 1.20.4, 1.20.5, 1.20.6, 1.21, 1.21.1, 1.21.2, 1.21.3, 1.21.4, 1.21.5  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
 
 ## Optifine Alternatives
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
