@@ -20,7 +20,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Mods](#Mod-List)
 - [Shaders](#Shaders)
 - [Resource Packs](#Resource-Packs)
-- [Datapacks](#Datapacks)
+- [Data Packs](#Data_Packs)
 
 ---
 
@@ -84,4 +84,4 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-# DataPacks
+# Data Packs
