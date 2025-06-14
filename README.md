@@ -16,7 +16,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-## Lists
+# Lists
 - [Mods](#Mod-List)
 - [Shaders](#Shaders)
 - [Resource Packs](#Resource-Packs)
@@ -26,7 +26,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Mod List
 
-### Categories
+## Categories
 - [Libraries & APIs](#Libraries--APIs)
 - [Optimization](#Optimization)
 - [Optifine Alternatives](#Optifine-Alternatives)
@@ -39,15 +39,15 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ---
 
-### Libraries & APIs
-### Optimization
-### Optifine Alternatives
-### Quality of Life Mods (QOL)
-### Vanilla+
-### Visual Mods
-### Auditory Mods 
-### Utility Mods
-### Exploration & WorldGen
+## Libraries & APIs
+## Optimization
+## Optifine Alternatives
+## Quality of Life Mods (QOL)
+## Vanilla+
+## Visual Mods
+## Auditory Mods 
+## Utility Mods
+## Exploration & WorldGen
 
 ## Shaders
 ## Resource Packs
