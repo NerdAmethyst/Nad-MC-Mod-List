@@ -30,7 +30,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Libraries & APIs](#Libraries-&-APIs)
 - [Optimization](#Optimization)
 - [Optifine Alternatives](#Optifine-Alternatives)
-- [QOL](#Quality-of-Life-Mods-(/QOL)/)
+- [QOL](#Quality-of-Life-Mods-(QOL))
 
 
 ### Quality of Life Mods (QOL)
