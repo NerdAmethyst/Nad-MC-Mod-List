@@ -39,40 +39,40 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Libraries & APIs
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Optimization
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) |  | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
 
 ## Optifine Alternatives
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Quality of Life Mods (QOL)
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Vanilla+
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Visual Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Auditory Mods 
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Utility Mods
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 ## Exploration & WorldGen
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
+| :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 
 
 ---
