@@ -37,8 +37,6 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Utility Mods](#Utility-Mods)
 - [Exploration & WorldGen](#Exploration--WorldGEn)
 
----
-
 ## Libraries & APIs
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
@@ -52,6 +50,14 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ## Utility Mods
 ## Exploration & WorldGen
 
+---
+
 # Shaders
+
+---
+
 # Resource Packs
+
+---
+
 # DataPacks
