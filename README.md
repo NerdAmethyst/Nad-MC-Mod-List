@@ -41,7 +41,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Libraries & APIs
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
-| :--: |
+| :--: | :----: | :----------: | :----: | :------: | :---------: | :----------: |
 
 ## Optimization
 ## Optifine Alternatives
