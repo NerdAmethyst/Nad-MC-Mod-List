@@ -46,7 +46,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | Name | Author | Game Version | Status | Priority | Description | Dependencies |
 | :--: | :----: | :----------: | :----: | :------: | :---------- | :----------: |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
-| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | REPLACE_MC_badpackets | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
+| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.5 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
