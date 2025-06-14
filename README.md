@@ -27,10 +27,10 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ## Mod List
 
 ### Categories
-- [Libraries & APIs](##Libraries-&-APIs)
+- [Libraries & APIs](#Libraries--APIs)
 - [Optimization](#Optimization)
 - [Optifine Alternatives](#Optifine-Alternatives)
-- [QOL](#Quality-of-Life-Mods-(QOL))
+- [QOL](#Quality-of-Life-Mods-QOL)
 
 ### Libraries & APIs
 
