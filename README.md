@@ -2,7 +2,6 @@
 
 Personal list of mods, shader, data packs, & resource packs I use for Minecraft gameplay.
 
-
 ## Labels
 - 🟢 = Frequent Updates & Use; Essential
 - 🟡 = Moderate Updates & Use; Fairly Essential
@@ -26,3 +25,16 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ---
 
 ## Mod List
+
+### Categories
+- [Libraries & APIs](###Libraries-&-APIs)
+- [Optimization](###Optimization)
+- [Optifine Alternatives](###Optifine-Alternatives)
+- [QOL](###Quality-of-Life-Mods-(QOL))
+
+
+### Quality of Life Mods (QOL)
+
+## Shaders
+## Resource Packs
+## Shader Packs
