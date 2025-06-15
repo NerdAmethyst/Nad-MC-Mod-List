@@ -47,8 +47,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | Fabric API |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.5 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
-| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | REPLACE_MC_ | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
-| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_MC_ | ✅ | :------: | Collective is a shared library with common code for all of Serilum's mods. | *none* |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.5 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
+| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.5 | ✅ | :------: | Collective is a shared library with common code for all of Serilum's mods. | *none* |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | :----------: |
 
 ###### [Mod Categories⬅️](#Categories)<br>
