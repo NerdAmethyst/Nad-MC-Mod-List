@@ -57,6 +57,9 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | [M.R.U.](https://modrinth.com/mod/mru) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.1 | ✅ | 🟡 | A library mod used by IMB11's mods to function. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | [glisco](https://modrinth.com/user/glisco) | 1.21.5 | ✅ | 🟡 | A general utility, GUI and config library for modding on Fabric and Quilt. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Searchables](https://modrinth.com/mod/searchables) | [jaredlll08](https://modrinth.com/user/jaredlll08) | 1.21.5 | ✅ | 🟡 | Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components (shape:square color:red), as well as offering built in auto-complete functionality. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Sodium Options API](https://modrinth.com/mod/sodium-options-api) | [Txni](https://modrinth.com/user/Txni) | REPLACE_VER | ✅ | 🟢 | Config API for adding Sodium options with a better categories menu. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) |
+| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ✅ | 🟢 | A builder-based configuration library for Minecraft. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [YUNG's API](https://modrinth.com/mod/yungs-api) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | REPLACE_VER | ✅ | 🟠 | Library mod for YUNG's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
