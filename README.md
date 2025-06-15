@@ -56,7 +56,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | [MaLiLib](https://modrinth.com/mod/malilib) | [masa](https://modrinth.com/user/masa) | 1.21.5 | ❌ | 🔴 | A library mod for client-side mods. Contains most of the common/shared code of masa's client mods, and adds some inter-operation support between the dependent mods. | *none* |
 | [M.R.U.](https://modrinth.com/mod/mru) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.1 | ✅ | 🟡 | A library mod used by IMB11's mods to function. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | [glisco](https://modrinth.com/user/glisco) | 1.21.5 | ✅ | 🟡 | A general utility, GUI and config library for modding on Fabric and Quilt. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| [Searchables](https://modrinth.com/mod/searchables) | [jaredlll08](https://modrinth.com/user/jaredlll08) | REPLACE_VER | ✅ | 🟡 | Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components (shape:square color:red), as well as offering built in auto-complete functionality. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
