@@ -3,10 +3,10 @@
 Personal list of mods, shader, data packs, & resource packs I use for Minecraft gameplay.
 
 ## Labels
-- 🟢 = Frequent Updates & Use; Essential
-- 🟡 = Moderate Updates & Use; Fairly Essential
-- 🟠 = Rare Use & Updates; Fairly Optional 
-- 🔴 = Occasional Use/Irregular Updates; Mostly Optional<br>
+- 🟢 = Frequent Updates & Use / Essential
+- 🟡 = Moderate Updates & Use / Fairly Essential
+- 🟠 = Rare Use & Updates / Fairly Optional 
+- 🔴 = Occasional Use/Irregular Updates / Mostly Optional<br>
 
 ---
 
@@ -37,9 +37,6 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 - [Utility Mods](#Utility-Mods)
 - [Exploration & WorldGen](#Exploration--WorldGEn)
 
-#guide
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
-
 ---
 
 ## Libraries & APIs
@@ -54,9 +51,17 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 | [Fabric API](https://modrinth.com/mod/fabric-api) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.5 | ✅ | 🟢 | Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain. | *none* |
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.5 | ✅ | 🟢 | This is a mod that enables usage of the Kotlin programming language for Fabric mods. | *none* |
 | [Fzzy Config](https://modrinth.com/mod/fzzy-config) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 1.21.5 | ✅ | 🟢 | Config API with automatic GUIs, powerful validation options, server-client sync, and more. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) |
+| [GlitchCore](https://modrinth.com/mod/glitchcore) | [Adubbz](https://modrinth.com/user/Adubbz) | REPLACE_VER | ✅ | 🟡 | A library mod aimed at abstracting mod loaders and providing various utilities for Glitchfiend mods. | *none* |
+| [Lithostitched](https://modrinth.com/mod/lithostitched) | [Apollo](https://modrinth.com/user/Apollo) | REPLACE_VER | ❌ | 🔴 | Library mod with new configurability and compatibility enhancements for worldgen. | *none* |
+| [MaLiLib](https://modrinth.com/mod/malilib) | [masa](https://modrinth.com/user/masa) | REPLACE_VER | ❌ | 🔴 | A library mod for client-side mods. Contains most of the common/shared code of masa's client mods, and adds some inter-operation support between the dependent mods. | *none* |
+| [M.R.U.](https://modrinth.com/mod/mru) | [IMB11](https://modrinth.com/user/IMB11) | REPLACE_VER | ✅ | 🟡 | A library mod used by IMB11's mods to function. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | [glisco](https://modrinth.com/user/glisco) | REPLACE_VER | ✅ | 🟡 | A general utility, GUI and config library for modding on Fabric and Quilt. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -68,6 +73,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -78,6 +85,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -88,6 +97,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -98,6 +109,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -108,6 +121,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -118,6 +133,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -128,6 +145,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
@@ -138,6 +157,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
+#guide
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
