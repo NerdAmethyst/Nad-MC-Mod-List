@@ -1,49 +1,45 @@
 import re
 import requests
 from packaging.version import parse as parse_version
-from datetime import datetime
 
 headers = {
-    "User-Agent": "ModrinthReadmeUpdater/1.0 (contact@example.com)"  # Replace with your actual email
+    "User-Agent": "ModrinthReadmeUpdater/1.0 (contact@example.com)"  # Use your real email if public
 }
 
-def fetch_latest_fabric_mc_version(slug):
+def fetch_highest_fabric_mc_version(slug):
     try:
         url = f"https://api.modrinth.com/v2/project/{slug}/version"
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         versions = response.json()
 
-        # Sort versions by publish date, newest first
-        versions.sort(
-            key=lambda v: datetime.fromisoformat(v["date_published"].rstrip("Z")),
-            reverse=True
-        )
+        mc_versions = set()
 
         for version in versions:
             if "fabric" in version.get("loaders", []):
-                valid_mc_versions = [
-                    v for v in version.get("game_versions", [])
-                    if re.match(r"^\d+(\.\d+){1,2}$", v.strip())
-                ]
-                if valid_mc_versions:
-                    return sorted(valid_mc_versions, key=parse_version, reverse=True)[0]
-        return "N/A"
+                for mc in version.get("game_versions", []):
+                    if re.match(r"^\d+(\.\d+){1,2}$", mc):
+                        mc_versions.add(mc.strip())
+
+        if mc_versions:
+            return sorted(mc_versions, key=parse_version, reverse=True)[0]
+        else:
+            return "N/A"
 
     except Exception as e:
         print(f"Error fetching {slug}: {e}")
         return "Error"
 
+# Read README
 with open("README.md", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 updated_lines = []
 for line in lines:
-    # Match rows where first column is a Modrinth link to extract slug
     match = re.match(r'^\|\s*\[.*?\]\(https://modrinth\.com/mod/([a-z0-9\-]+)\)\s*\|', line)
     if match:
         slug = match.group(1)
-        latest_version = fetch_latest_fabric_mc_version(slug)
+        latest_version = fetch_highest_fabric_mc_version(slug)
 
         parts = line.strip().split('|')
         if len(parts) >= 4:
@@ -56,6 +52,7 @@ for line in lines:
     else:
         updated_lines.append(line)
 
+# Write back to README
 with open("README.md", "w", encoding="utf-8") as f:
     f.writelines(updated_lines)
 
