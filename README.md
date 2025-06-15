@@ -1,18 +1,6 @@
 # **Nad-s-Mod-List**
 
-Personal list of mods, shader, data packs, & resource packs I use for Minecraft gameplay.
-
-## Labels
-- 🟢 = Frequent Updates & Use / Essential
-- 🟡 = Moderate Updates & Use / Fairly Essential
-- 🟠 = Rare Use & Updates / Fairly Optional 
-- 🔴 = Occasional Use/Irregular Updates / Mostly Optional<br>
-
----
-
-- ✅ = In use
-- ⏺️ = Waiting for Update
-- ❌ = Unused
+Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.
 
 ---
 
@@ -25,6 +13,23 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 ---
 
 # **Mod List**
+
+***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay. 
+
+## Labels
+- 🟢 = Frequent Updates & Use / Essential
+- 🟡 = Moderate Updates & Use / Fairly Essential
+- 🟠 = Rare Use & Updates / Fairly Optional 
+- 🔴 = Occasional Use/Irregular Updates / Mostly Optional<br>
+
+---
+
+- ✅ = In use
+- ⏺️ = Waiting for Update
+- ❌ = Unused
+- __*__ = *Optional*
+
+---
 
 ## Categories
 - [Libraries & APIs](#Libraries--APIs)
@@ -41,7 +46,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.5 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.5 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
@@ -63,16 +68,17 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
-#guide
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
 ## Optimization
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
-| [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5 | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | :----------: |
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
+| [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5 | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | *none* |
+| [Clumps](https://modrinth.com/mod/clumps) | [jaredlll08](https://modrinth.com/user/jaredlll08) | REPLACE_VER | ✅ | 🟢 | Clumps XP orbs together to reduce lag. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ⏺️ | 🟡 | Cull Less Leaves skips rendering of inner leaf layers, improving performance. |🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Debugify](https://modrinth.com/mod/debugify) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ✅ | 🟡 | Fixes Minecraft bugs found on the bug tracker. | 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | [juliand665](https://modrinth.com/user/juliand665) | REPLACE_VER | ✅ | 🟢 | Reduce resource usage while Minecraft is in the background or idle. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
@@ -83,7 +89,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Optifine Alternatives
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -95,7 +101,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Quality of Life Mods (QOL)
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -107,7 +113,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Vanilla+
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -119,7 +125,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Visual Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -131,7 +137,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Auditory Mods 
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -143,8 +149,8 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
+| [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | REPLACE_VER | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
@@ -155,7 +161,7 @@ Personal list of mods, shader, data packs, & resource packs I use for Minecraft 
 
 ## Exploration & WorldGen
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
-| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------: |
+| :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
