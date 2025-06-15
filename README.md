@@ -75,10 +75,10 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.5 | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | *none* |
-| [Clumps](https://modrinth.com/mod/clumps) | [jaredlll08](https://modrinth.com/user/jaredlll08) | REPLACE_VER | ✅ | 🟢 | Clumps XP orbs together to reduce lag. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ⏺️ | 🟡 | Cull Less Leaves skips rendering of inner leaf layers, improving performance. |🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
-| [Debugify](https://modrinth.com/mod/debugify) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ✅ | 🟡 | Fixes Minecraft bugs found on the bug tracker. | 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
-| [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | [juliand665](https://modrinth.com/user/juliand665) | REPLACE_VER | ✅ | 🟢 | Reduce resource usage while Minecraft is in the background or idle. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [Clumps](https://modrinth.com/mod/clumps) | [jaredlll08](https://modrinth.com/user/jaredlll08) | 1.21.5 | ✅ | 🟢 | Clumps XP orbs together to reduce lag. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) | [isxander](https://modrinth.com/user/isxander) | 1.21.1 | ⏺️ | 🟡 | Cull Less Leaves skips rendering of inner leaf layers, improving performance. |🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Debugify](https://modrinth.com/mod/debugify) | [isxander](https://modrinth.com/user/isxander) | 1.21.5 | ✅ | 🟡 | Fixes Minecraft bugs found on the bug tracker. | 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | [juliand665](https://modrinth.com/user/juliand665) | 1.21.5 | ✅ | 🟢 | Reduce resource usage while Minecraft is in the background or idle. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
@@ -150,7 +150,7 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 ## Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | REPLACE_VER | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.5 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
