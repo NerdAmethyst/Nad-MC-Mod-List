@@ -110,10 +110,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Optifine Alternatives
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Continuity](https://modrinth.com/mod/continuity) | [PepperCode1](https://modrinth.com/user/PepperCode1) | REPLACE_VER | ✅ | 🟢 | A Fabric mod that allows for efficient connected textures | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) | [Traben](https://modrinth.com/user/Traben) | REPLACE_VER | ✅ | 🟢 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) |
-| [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | [Traben](https://modrinth.com/user/Traben) | REPLACE_VER | ✅ | 🟢 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric. | *none* |
-| [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes) | [AMereBagatelle](https://modrinth.com/user/AMereBagatelle) | REPLACE_VER | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Continuity](https://modrinth.com/mod/continuity) | [PepperCode1](https://modrinth.com/user/PepperCode1) | 1.21.5 | ✅ | 🟢 | A Fabric mod that allows for efficient connected textures | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) |
+| [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric. | *none* |
+| [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes) | [AMereBagatelle](https://modrinth.com/user/AMereBagatelle) | Error | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
