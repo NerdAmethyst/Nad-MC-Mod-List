@@ -1,20 +1,24 @@
 # **Nad-s-Mod-List**
 
-Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.
+Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
+<br>
+*Last checked and updated on _*
 
 ---
 
 # **Lists**
-- [Mods](#Mod-List)
-- [Shaders](#Shaders)
-- [Resource Packs](#Resource-Packs)
-- [Data Packs](#Data-Packs)
+- [Mods](#Mod-List "A mod list contatining the mods I use/used for gameplay.")
+- [Shaders](#Shaders "A list of shaders I use for gameplay")
+- [Resource Packs](#Resource-Packs "Useful and aesthetic resource packs that adds visual customization and improvements in game.")
+- [Data Packs](#Data-Packs "Useful data packs for survival")
 
 ---
 
 # **Mod List**
 
-***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay. 
+***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
+I primarily download most of the mods from [Modrinth](https://modrinth.com "Only download mods from trusted sources.") while a few are from [Curseforge](https://www.curseforge.com/minecraft "Only download mods from trusted sources.").<br>
+*Some mods that aren't in use might have out of date information in the list.*
 
 ## Labels
 - 🟢 = Frequent Updates & Use / Essential
@@ -32,15 +36,15 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 ---
 
 ## Categories
-- [Libraries & APIs](#Libraries--APIs)
-- [Optimization](#Optimization)
-- [Optifine Alternatives](#Optifine-Alternatives)
-- [Quality of Life (QOL)](#Quality-of-Life-Mods-QOL)
-- [Vanilla+](#Vanilla)
-- [Visual Mods](#Visual-Mods)
-- [Auditory Mods](#Auditory-Mods)
-- [Utility Mods](#Utility-Mods)
-- [Exploration & WorldGen](#Exploration--WorldGEn)
+- [Libraries & APIs](#Libraries--APIs "Mods essential to support or run other mods.")
+- [Optimization](#Optimization "Mods for improving game perfoamnce and optimizations.")
+- [Optifine Alternatives](#Optifine-Alternatives "Mods that add features from Optifine.")
+- [Quality of Life (QOL)](#Quality-of-Life-Mods-QOL "Mods that improves gameplay experience.")
+- [Vanilla+](#Vanilla "Adds sublte content or improvements on the vanilla experiance.")
+- [Visual Mods](#Visual-Mods "Mods that add visual improvements.")
+- [Auditory Mods](#Auditory-Mods "Mods that add auditory improvements")
+- [Utility Mods](#Utility-Mods "Mods that are useful tools for the game.")
+- [Exploration & WorldGen](#Exploration--WorldGEn "Mods that changes add features to the terrain and exploration experience.")
 
 ---
 
@@ -79,6 +83,7 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 | [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) | [isxander](https://modrinth.com/user/isxander) | 1.21.1 | ⏺️ | 🟡 | Cull Less Leaves skips rendering of inner leaf layers, improving performance. |🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Debugify](https://modrinth.com/mod/debugify) | [isxander](https://modrinth.com/user/isxander) | 1.21.5 | ✅ | 🟡 | Fixes Minecraft bugs found on the bug tracker. | 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | [juliand665](https://modrinth.com/user/juliand665) | 1.21.5 | ✅ | 🟢 | Reduce resource usage while Minecraft is in the background or idle. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [Enhanced Block Entities](https://modrinth.com/mod/ebe) | [FoundationGames](https://modrinth.com/user/FoundationGames) | REPLACE_VER | ✅ | 🟢 | Reduce block entity FPS lag with almost no compromises, and improve their visuals. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
