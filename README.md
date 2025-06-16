@@ -94,11 +94,16 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [More Culling](https://modrinth.com/mod/moreculling) | [FX](https://modrinth.com/user/FX) | 1.21.5 | ✅ | 🟢 | A mod that changes how multiple types of culling are handled in order to improve performance. | [Cloth Config API](https://modrinth.com/mod/cloth-config) |
 | [Noisium](https://modrinth.com/mod/noisium) | [Steveplays](https://modrinth.com/user/Steveplays) | 1.21.5 | ✅ | 🟢 | Optimizes worldgen performance for a better gameplay experience.- | *none* |
 | [Particle Core](https://modrinth.com/mod/particle-core) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 1.21.5 | ✅ | 🟢 | Particle optimizations: Culling, rendering optimizations, configurable particle-type-specific spawn reduction, and potion particle disabling. Compatible with Sodium, improves performance over Sodium alone. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)<br> 🔸[Fzzy Config](https://modrinth.com/mod/fzzy-config) |
+| [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | [FlashyReese](https://modrinth.com/user/FlashyReese) | REPLACE_VER | ✅ | 🟢 | Alternative Options Menu for Sodium. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Iris Shaders](https://modrinth.com/mod/iris)<br> 🔸[Sodium Extra](https://modrinth.com/mod/sodium-extra) |
+| [ScalableLux](https://modrinth.com/mod/scalablelux) | [ishland](https://modrinth.com/user/ishland) | REPLACE_VER | ❌ | 🟡 | A Fabric mod based on Starlight that improves the performance of light updates in Minecraft. | *none* |
+| [ServerCore](https://modrinth.com/mod/servercore) | [Wesley1808](https://modrinth.com/user/Wesley1808) | REPLACE_VER | ✅ | 🟡 | A mod that aims to optimize the minecraft server. | *none* |
+| [Sodium](https://modrinth.com/mod/sodium) | [jellysquid3](https://modrinth.com/user/jellysquid3 "Project Lead")<br> [IMS](https://modrinth.com/user/IMS "Maintainer") | REPLACE_VER | ✅ | 🟢 | The fastest and most compatible rendering optimization mod for Minecraft. | *none* |
+| [Sodium Extra](https://modrinth.com/mod/sodium-extra) | [FlashyReese](https://modrinth.com/user/FlashyReese) | REPLACE_VER | ✅ | 🟢 | A Sodium addon that adds features that shouldn't be in Sodium. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)<br> 🔸[Iris Shaders](https://modrinth.com/mod/iris) |
+| [Sodium Extras](https://modrinth.com/mod/sodium-extras) | [Txni](https://modrinth.com/user/Txni) | REPLACE_VER | ✅ | 🟢 | An add-on mod for Sodium that adds new features and customization. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
+| [Sodium Leaf Culling](https://modrinth.com/mod/sodiumleafculling) | [Txni](https://modrinth.com/user/Txni) | REPLACE_VER | ⏺️ | 🟢 | Smart leaf culling algorithm for Sodium on 1.21+. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
-#guide
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
