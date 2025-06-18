@@ -51,7 +51,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.5 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.6 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.5 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.5 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.5 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
@@ -113,7 +113,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Continuity](https://modrinth.com/mod/continuity) | [PepperCode1](https://modrinth.com/user/PepperCode1) | 1.21.5 | ✅ | 🟢 | A Fabric mod that allows for efficient connected textures | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) |
 | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric. | *none* |
-| [Nuit](https://modrinth.com/mod/nuit) | [FlashyReese](https://modrinth.com/user/FlashyReese) | Error | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Nuit](https://modrinth.com/mod/nuit) | [FlashyReese](https://modrinth.com/user/FlashyReese) | 1.21.4 | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
