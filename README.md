@@ -114,7 +114,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) |
 | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | [Traben](https://modrinth.com/user/Traben) | 1.21.5 | ✅ | 🟢 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric. | *none* |
 | [Nuit](https://modrinth.com/mod/nuit) | [FlashyReese](https://modrinth.com/user/FlashyReese) | 1.21.4 | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [Iris Shaders](https://modrinth.com/mod/iris) | [coderbot]() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| [Iris Shaders](https://modrinth.com/mod/iris) | [coderbot]() | 1.21.6 | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
