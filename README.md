@@ -172,6 +172,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> [CreativeCore](https://modrinth.com/mod/creativecore) |
 | [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | 1.21.5 | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
