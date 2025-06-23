@@ -178,7 +178,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> [CreativeCore](https://modrinth.com/mod/creativecore) |
 | [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | 1.21.5 | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
-| [ExtraSounds Next](https://modrinth.com/mod/extrasoundsforge) | [Arborsm](https://modrinth.com/user/Arborsm) | REPLACE_VER | ❌ | 🟠 | Adds more sounds to Minecraft, like sounds when you scroll the hotbar, the creative inventory, pick up or place items in inventories, and more. | *none* |
+| [ExtraSounds Next](https://modrinth.com/mod/extrasoundsforge) | [Arborsm](https://modrinth.com/user/Arborsm) | 1.21.1 | ❌ | 🟠 | Adds more sounds to Minecraft, like sounds when you scroll the hotbar, the creative inventory, pick up or place items in inventories, and more. | *none* |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
