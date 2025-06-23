@@ -132,8 +132,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Betterf3](https://modrinth.com/mod/betterf3) | [TreyRuffy](https://modrinth.com/user/TreyRuffy) | 1.21.6 | ✅ | 🟢 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Beautified Chat \[Client\]](https://modrinth.com/mod/beautified-chat-client) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the chat style and colour on the client. | [Collective](https://modrinth.com/mod/collective) |
 | [Beautified Chat \[Server\]](https://modrinth.com/mod/beautified-chat-server) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the style and colour of chat messages server-wide. | [Collective](https://modrinth.com/mod/collective) |
-| [Dismount Entity](https://modrinth.com/mod/dismount-entity) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟡 | Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them. | [Collective](https://modrinth.com/mod/collective) |
-| [Double Doors](https://modrinth.com/mod/double-doors) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ❌ | 🟡 | Adds the ability for identical double doors, trapdoors and fence gates to be opened simultaneously. | [Collective](https://modrinth.com/mod/collective) |
+| [Dismount Entity](https://modrinth.com/mod/dismount-entity) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟡 | Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them. | [Collective](https://modrinth.com/mod/collective) |
+| [Double Doors](https://modrinth.com/mod/double-doors) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | Adds the ability for identical double doors, trapdoors and fence gates to be opened simultaneously. | [Collective](https://modrinth.com/mod/collective) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -146,7 +146,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Vanilla+ Tweaks
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
+| [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -161,10 +161,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟡 | Render the player skin layer in 3d. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Chat Animation \[Smooth Chat\]](https://modrinth.com/mod/chatanimation) | [Ezzenix](https://modrinth.com/user/Ezzenix) | 1.21.5 | ❌ | 🟡 | Makes chat messages appear with a smooth animation. | *none* |
-| [Eating Animation](https://modrinth.com/mod/eating-animation) | [theoness1](https://modrinth.com/user/theoness1) | REPLACE_VER | ❌ | 🟠 | A mod that adds sprite animations for edible and drinkable items. | *none* |
-| [Effective](https://modrinth.com/mod/effective) | [ladysnake](https://modrinth.com/organization/ladysnake) | REPLACE_VER | ❌ | 🔴 | Fabric client-side mod designed to improve Minecraft's ambience through particles, visual effects and sounds. | *none* |
-| [EnhancedVisuals](https://modrinth.com/mod/enhancedvisuals) | [creativemd](https://modrinth.com/user/creativemd) | REPLACE_VER | ❌ | 🟠 | Provides a more immersive experience by adding effects to the HUD. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
-| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches) | [SpacEagle17](https://modrinth.com/user/SpacEagle17) | REPLACE_VER | ✅ | 🟢 | Euphoria Patches is an add-on for Complementary Shaders, extending it with more optional features and settings. | 🔸[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined)<br> 🔸[Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) |
+| [Eating Animation](https://modrinth.com/mod/eating-animation) | [theoness1](https://modrinth.com/user/theoness1) | 1.21.3 | ❌ | 🟠 | A mod that adds sprite animations for edible and drinkable items. | *none* |
+| [Effective](https://modrinth.com/mod/effective) | [ladysnake](https://modrinth.com/organization/ladysnake) | 1.21.1 | ❌ | 🔴 | Fabric client-side mod designed to improve Minecraft's ambience through particles, visual effects and sounds. | *none* |
+| [EnhancedVisuals](https://modrinth.com/mod/enhancedvisuals) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.4 | ❌ | 🟠 | Provides a more immersive experience by adding effects to the HUD. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
+| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches) | [SpacEagle17](https://modrinth.com/user/SpacEagle17) | 1.21.6 | ✅ | 🟢 | Euphoria Patches is an add-on for Complementary Shaders, extending it with more optional features and settings. | 🔸[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined)<br> 🔸[Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
