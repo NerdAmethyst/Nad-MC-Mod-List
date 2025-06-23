@@ -115,9 +115,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | [Traben](https://modrinth.com/user/Traben) | 1.21.6 | ✅ | 🟢 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric. | *none* |
 | [Nuit](https://modrinth.com/mod/nuit) | [FlashyReese](https://modrinth.com/user/FlashyReese) | 1.21.4 | ❌ | 🔴 | Allows resource packs to define custom skyboxes. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Iris Shaders](https://modrinth.com/mod/iris) | [coderbot](https://modrinth.com/user/coderbot) | 1.21.6 | ✅ | 🟢 | A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs. | [Sodium](https://modrinth.com/mod/sodium) |
-| [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) | [LambdAurora](https://modrinth.com/user/LambdAurora) | REPLACE_VER | ✅ | 🟢 | The most feature-complete dynamic lighting mod for Fabric. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights) | [Txni](https://modrinth.com/user/Txni) | REPLACE_VER | ❌ | 🟡 | Multiloader port of LambDynLights that adds Sodium options integration. *Alternative for LambDynamicLights.* | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
-| [Zoomify](https://modrinth.com/mod/zoomify) | [isxander](https://modrinth.com/user/isxander) | REPLACE_VER | ✅ | 🟢 | A zoom mod with infinite customizability. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) | [LambdAurora](https://modrinth.com/user/LambdAurora) | 1.21.6 | ✅ | 🟢 | The most feature-complete dynamic lighting mod for Fabric. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights) | [Txni](https://modrinth.com/user/Txni) | 1.21.5 | ❌ | 🟡 | Multiloader port of LambDynLights that adds Sodium options integration. *Alternative for LambDynamicLights.* | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
+| [Zoomify](https://modrinth.com/mod/zoomify) | [isxander](https://modrinth.com/user/isxander) | 1.21.6 | ✅ | 🟢 | A zoom mod with infinite customizability. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
@@ -127,11 +127,11 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Quality of Life Mods (QOL)
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Anvil Never Too Expensive](https://modrinth.com/mod/ante) | [tinytransfem](https://modrinth.com/user/tinytransfem) | REPLACE_VER | ✅ | 🟠 | Removes the Anvil Level Cap. | *none* |
-| [Armor Poser](https://modrinth.com/mod/armor-poser) | [Mrbysco](https://modrinth.com/user/Mrbysco) | REPLACE_VER | ✅ | 🟢 | Adds a GUI for armor stands in which you can configure it's pose and other properties. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
-| [Betterf3](https://modrinth.com/mod/betterf3) | [TreyRuffy](https://modrinth.com/user/TreyRuffy) | REPLACE_VER | ✅ | 🟢 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
-| [Beautified Chat \[Client\]](https://modrinth.com/mod/beautified-chat-client) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ❌ | 🟡 | A highly configurable mod to change the chat style and colour on the client. | [Collective](https://modrinth.com/mod/collective) |
-| [Beautified Chat \[Server\]](https://modrinth.com/mod/beautified-chat-server) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ❌ | 🟡 | A highly configurable mod to change the style and colour of chat messages server-wide. | [Collective](https://modrinth.com/mod/collective) |
+| [Anvil Never Too Expensive](https://modrinth.com/mod/ante) | [tinytransfem](https://modrinth.com/user/tinytransfem) | 1.21.4 | ✅ | 🟠 | Removes the Anvil Level Cap. | *none* |
+| [Armor Poser](https://modrinth.com/mod/armor-poser) | [Mrbysco](https://modrinth.com/user/Mrbysco) | 1.21.6 | ✅ | 🟢 | Adds a GUI for armor stands in which you can configure it's pose and other properties. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [Betterf3](https://modrinth.com/mod/betterf3) | [TreyRuffy](https://modrinth.com/user/TreyRuffy) | 1.21.6 | ✅ | 🟢 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Beautified Chat \[Client\]](https://modrinth.com/mod/beautified-chat-client) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the chat style and colour on the client. | [Collective](https://modrinth.com/mod/collective) |
+| [Beautified Chat \[Server\]](https://modrinth.com/mod/beautified-chat-server) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the style and colour of chat messages server-wide. | [Collective](https://modrinth.com/mod/collective) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
@@ -155,8 +155,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Visual Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | [tr7zw](https://modrinth.com/user/tr7zw) | REPLACE_VER | ✅ | 🟡 | Render the player skin layer in 3d. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [Chat Animation \[Smooth Chat\]](https://modrinth.com/mod/chatanimation) | [Ezzenix](https://modrinth.com/user/Ezzenix) | REPLACE_VER | ❌ | 🟡 | Makes chat messages appear with a smooth animation. | *none* |
+| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟡 | Render the player skin layer in 3d. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Chat Animation \[Smooth Chat\]](https://modrinth.com/mod/chatanimation) | [Ezzenix](https://modrinth.com/user/Ezzenix) | 1.21.5 | ❌ | 🟡 | Makes chat messages appear with a smooth animation. | *none* |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -169,8 +169,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Auditory Mods 
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | REPLACE_VER | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> [CreativeCore](https://modrinth.com/mod/creativecore) |
-| [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | REPLACE_VER | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
+| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> [CreativeCore](https://modrinth.com/mod/creativecore) |
+| [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | 1.21.5 | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
