@@ -132,6 +132,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Betterf3](https://modrinth.com/mod/betterf3) | [TreyRuffy](https://modrinth.com/user/TreyRuffy) | 1.21.6 | ✅ | 🟢 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Beautified Chat \[Client\]](https://modrinth.com/mod/beautified-chat-client) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the chat style and colour on the client. | [Collective](https://modrinth.com/mod/collective) |
 | [Beautified Chat \[Server\]](https://modrinth.com/mod/beautified-chat-server) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the style and colour of chat messages server-wide. | [Collective](https://modrinth.com/mod/collective) |
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
