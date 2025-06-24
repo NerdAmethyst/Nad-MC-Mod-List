@@ -190,7 +190,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.5 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.6 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
