@@ -56,19 +56,15 @@ updated_lines = []
 game_version_col_index = None  # will be set dynamically for each table
 
 for line in lines:
-    # Detect header row containing 'Game Version' column
-    if re.match(r'^\|.*game version.*\|', line, re.IGNORECASE):
-        headers_in_row = [col.strip().lower() for col in line.strip().split('|')]
-        try:
-            game_version_col_index = headers_in_row.index('game version')
-            print(f"\033[92m✓ Detected 'Game Version' column at index {game_version_col_index}\033[0m")
-        except ValueError:
-            game_version_col_index = None
-            print("\033[93m⚠️ Couldn't find 'Game Version' column in this header\033[0m")
+    # Detect header row
+    columns = [col.strip().lower().replace('*', '') for col in line.strip().split('|')]
+    if 'game version' in columns:
+        game_version_col_index = columns.index('game version')
+        print(f"\033[92m✓ Detected 'Game Version' column at index {game_version_col_index}\033[0m")
         updated_lines.append(line)
         continue
 
-    # Update Modrinth mods in the detected column
+    # Update Modrinth mods
     if "https://modrinth.com/mod/" in line and game_version_col_index is not None:
         match = re.search(r'\[.*?\]\(https://modrinth\.com/mod/([a-z0-9\-]+)\)', line)
         if match:
@@ -85,7 +81,7 @@ for line in lines:
         else:
             updated_lines.append(line)
 
-    # Update CurseForge mods in the detected column
+    # Update CurseForge mods
     elif "https://www.curseforge.com/minecraft/mc-mods/" in line and game_version_col_index is not None:
         match = re.search(r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9\-]+)\)', line)
         if match:
