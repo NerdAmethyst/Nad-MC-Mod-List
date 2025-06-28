@@ -53,10 +53,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | REPLACE_VER | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | hjdas | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
-| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | da | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
-| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | dasd| ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.6 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.6 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.6 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
+| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
 | [CreativeCore](https://modrinth.com/mod/creativecore) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Core mod required by most of CreativeMD's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Cristel Lib](https://modrinth.com/mod/cristel-lib) | [Cristelknight](https://modrinth.com/user/Cristelknight) | 1.21.6 | ✅ | 🟠 | A Library mod for easy structure config and runtime datapacks. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Fabric API](https://modrinth.com/mod/fabric-api) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.6 | ✅ | 🟢 | Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain. | *none* |
@@ -136,7 +136,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Beautified Chat \[Server\]](https://modrinth.com/mod/beautified-chat-server) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | A highly configurable mod to change the style and colour of chat messages server-wide. | [Collective](https://modrinth.com/mod/collective) |
 | [Dismount Entity](https://modrinth.com/mod/dismount-entity) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟡 | Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them. | [Collective](https://modrinth.com/mod/collective) |
 | [Double Doors](https://modrinth.com/mod/double-doors) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟡 | Adds the ability for identical double doors, trapdoors and fence gates to be opened simultaneously. | [Collective](https://modrinth.com/mod/collective) |
-| [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) | [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects) | REPLACE_VER | ✅ | 🟢 | Adds your main inventory, potion effects, and your equipment to your HUD. And few other features. | *none* |
+| [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) | [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects) | 1.21.6 | ✅ | 🟢 | Adds your main inventory, potion effects, and your equipment to your HUD. And few other features. | *none* |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
