@@ -140,7 +140,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Infinite Trading](https://modrinth.com/mod/infinite-trading) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟡 | Prevents villager trades from locking up, making them always available. | [Collective](https://modrinth.com/mod/collective) |
 | [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) | [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects) | 1.21.6 | ✅ | 🟢 | Adds your main inventory, potion effects, and your equipment to your HUD. And few other features. | *none* |
 | [Liberty's Villagers](https://modrinth.com/mod/libertyvillagers) | [gitsh01](https://modrinth.com/user/gitsh01) | 1.21 | ⏺️ | 🟡 | Quality of Life improvements for Villagers. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [No Feather Trample](https://modrinth.com/mod/no-feather-trample) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟠 | Prevents farmland blocks from being trampled while having Feather/Slow Falling. | [Collective](https://modrinth.com/mod/collective) |
+| [No Feather Trample](https://modrinth.com/mod/no-feather-trample) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟠 | Prevents farmland blocks from being trampled while having Feather/Slow Falling. | [Collective](https://modrinth.com/mod/collective) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -178,7 +178,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Flow](https://modrinth.com/mod/flow) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.1 | ⏺️ | 🟡 | Configurable ease in-out inventory UI transitions. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
 | [Fog](https://modrinth.com/mod/fog) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.5 | ✅ | 🟡 | Enhances fog rendering with dynamic, customizable effects—improving atmosphere and depth while preserving the vanilla experience and maintaining compatibility with shaders and other mods. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru)<br> 🔸[Architectury API](https://modrinth.com/mod/architectury-api) |
 | [Loot beams](https://modrinth.com/mod/loot-beams-up) | [EnsoX](https://modrinth.com/user/EnsoX) | 1.21.4 | ✅ | 🟠 | Loot beams for items. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Mod Menu](https://modrinth.com/mod/modmenu)<br> 🔸[*Prism**](https://modrinth.com/mod/prism-lib) |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | [tr7zw](https://modrinth.com/user/tr7zw) | REPLACE_VER | ✅ | 🟠 | Bringing first-person animations to the third-person. | []() |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟠 | Bringing first-person animations to the third-person. | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
