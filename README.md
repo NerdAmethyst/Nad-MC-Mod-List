@@ -1,3 +1,4 @@
+![Update Mod Versions](https://github.com/NerdAmethyst/Nad-s-Mod_List/actions/workflows/update-readme.yml/badge.svg)
 # **Nad-s-Mod-List**
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
