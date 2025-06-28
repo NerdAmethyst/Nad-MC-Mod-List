@@ -10,6 +10,9 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    env:
+      CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
