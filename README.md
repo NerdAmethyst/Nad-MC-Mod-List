@@ -53,7 +53,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | kok | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | REPLACE_VER | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | hjdas | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | da | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | dasd| ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
