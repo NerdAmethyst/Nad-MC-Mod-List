@@ -1,10 +1,11 @@
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/NerdAmethyst/Nad-s-Mod-List/update-readme.yml?style=flat-square&logo=github&label=Update%20Mod%20Versions)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NerdAmethyst/Nad-s-Mod-List?style=flat-square&color=blue)
+
 # **Nad-s-Mod-List**
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
 <br>
-*Last checked and updated on _*<br>
-<br>
-![Update Mod Versions](https://github.com/NerdAmethyst/Nad-s-Mod-List/actions/workflows/update-readme.yml/badge.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)
 
 ---
 
@@ -19,7 +20,10 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 # **Mod List**
 
 ***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
-I primarily download most of the mods from [Modrinth](https://modrinth.com "Only download mods from trusted sources.") while a few are from [Curseforge](https://www.curseforge.com/minecraft "Only download mods from trusted sources.").<br>
+I primarily download most of the mods from [Modrinth](https://modrinth.com "Only download mods from trusted sources.")  while a few are from [Curseforge](https://www.curseforge.com/minecraft "Only download mods from trusted sources.").<br>
+<br>
+![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)
+<br>
 *Some mods that aren't in use might have out of date information in the list.*
 
 ## Labels
@@ -178,7 +182,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Flow](https://modrinth.com/mod/flow) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.1 | ⏺️ | 🟡 | Configurable ease in-out inventory UI transitions. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
 | [Fog](https://modrinth.com/mod/fog) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.5 | ✅ | 🟡 | Enhances fog rendering with dynamic, customizable effects—improving atmosphere and depth while preserving the vanilla experience and maintaining compatibility with shaders and other mods. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru)<br> 🔸[Architectury API](https://modrinth.com/mod/architectury-api) |
 | [Loot beams](https://modrinth.com/mod/loot-beams-up) | [EnsoX](https://modrinth.com/user/EnsoX) | 1.21.4 | ✅ | 🟠 | Loot beams for items. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Mod Menu](https://modrinth.com/mod/modmenu)<br> 🔸[*Prism**](https://modrinth.com/mod/prism-lib) |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟠 | Bringing first-person animations to the third-person. | []() |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟠 | Bringing first-person animations to the third-person. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
