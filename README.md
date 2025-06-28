@@ -160,7 +160,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟡 | Render the player skin layer in 3d. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [Chat Animation \[Smooth Chat\]](https://modrinth.com/mod/chatanimation) | [Ezzenix](https://modrinth.com/user/Ezzenix) | 1.21.5 | ❌ | 🟡 | Makes chat messages appear with a smooth animation. | *none* |
+| [Chat Animation \[Smooth Chat\]](https://modrinth.com/mod/chatanimation) | [Ezzenix](https://modrinth.com/user/Ezzenix) | 1.21.6 | ❌ | 🟡 | Makes chat messages appear with a smooth animation. | *none* |
 | [Eating Animation](https://modrinth.com/mod/eating-animation) | [theoness1](https://modrinth.com/user/theoness1) | 1.21.3 | ❌ | 🟠 | A mod that adds sprite animations for edible and drinkable items. | *none* |
 | [Effective](https://modrinth.com/mod/effective) | [ladysnake](https://modrinth.com/organization/ladysnake) | 1.21.1 | ❌ | 🔴 | Fabric client-side mod designed to improve Minecraft's ambience through particles, visual effects and sounds. | *none* |
 | [EnhancedVisuals](https://modrinth.com/mod/enhancedvisuals) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.4 | ❌ | 🟠 | Provides a more immersive experience by adding effects to the HUD. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
