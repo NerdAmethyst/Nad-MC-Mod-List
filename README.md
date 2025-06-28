@@ -53,10 +53,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.6 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.6 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
-| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.6 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
-| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | kok | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | hjdas | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | da | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
+| [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | dasd| ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
 | [CreativeCore](https://modrinth.com/mod/creativecore) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Core mod required by most of CreativeMD's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Cristel Lib](https://modrinth.com/mod/cristel-lib) | [Cristelknight](https://modrinth.com/user/Cristelknight) | 1.21.6 | ✅ | 🟠 | A Library mod for easy structure config and runtime datapacks. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Fabric API](https://modrinth.com/mod/fabric-api) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.6 | ✅ | 🟢 | Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain. | *none* |
