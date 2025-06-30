@@ -1,7 +1,7 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/NerdAmethyst/Nad-s-Mod-List/update-readme.yml?style=flat-square&logo=github&label=Update%20Mod%20Versions)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NerdAmethyst/Nad-s-Mod-List?style=flat-square&color=blue)
 
-# **Nad-s-Mod-List**
+# **Nad's Mod List**
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
 <br>
@@ -19,12 +19,12 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 
 # **Mod List**
 
-***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
+🗒️***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
 I primarily download most of the mods from [Modrinth](https://modrinth.com "Only download mods from trusted sources.")  while a few are from [Curseforge](https://www.curseforge.com/minecraft "Only download mods from trusted sources.").<br>
 <br>
 ![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)
-<br>
-*Some mods that aren't in use might have out of date information in the list.*
+
+> 📌 *Some mods that aren't in use might have out of date information in the list.*
 
 ## Labels
 - 🟢 = Frequent Updates & Use / Essential
@@ -65,7 +65,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Cristel Lib](https://modrinth.com/mod/cristel-lib) | [Cristelknight](https://modrinth.com/user/Cristelknight) | 1.21.6 | ✅ | 🟠 | A Library mod for easy structure config and runtime datapacks. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Fabric API](https://modrinth.com/mod/fabric-api) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.6 | ✅ | 🟢 | Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain. | *none* |
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.6 | ✅ | 🟢 | This is a mod that enables usage of the Kotlin programming language for Fabric mods. | *none* |
-| [Fzzy Config](https://modrinth.com/mod/fzzy-config) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 1.21.5 | ✅ | 🟢 | Config API with automatic GUIs, powerful validation options, server-client sync, and more. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) |
+| [Fzzy Config](https://modrinth.com/mod/fzzy-config) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 1.21.5 | ✅ | 🟢 | Config API with automatic GUIs, powerful validation options, server-client sync, and more. | <ul><li>🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> </li>🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) |
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | [Adubbz](https://modrinth.com/user/Adubbz) | 1.21.6 | ✅ | 🟡 | A library mod aimed at abstracting mod loaders and providing various utilities for Glitchfiend mods. | *none* |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | [Apollo](https://modrinth.com/user/Apollo) | 1.21.6 | ❌ | 🔴 | Library mod with new configurability and compatibility enhancements for worldgen. | *none* |
 | [MaLiLib](https://modrinth.com/mod/malilib) | [masa](https://modrinth.com/user/masa) | 1.21.6 | ❌ | 🔴 | A library mod for client-side mods. Contains most of the common/shared code of masa's client mods, and adds some inter-operation support between the dependent mods. | *none* |
@@ -145,6 +145,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) | [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects) | 1.21.6 | ✅ | 🟢 | Adds your main inventory, potion effects, and your equipment to your HUD. And few other features. | *none* |
 | [Liberty's Villagers](https://modrinth.com/mod/libertyvillagers) | [gitsh01](https://modrinth.com/user/gitsh01) | 1.21 | ⏺️ | 🟡 | Quality of Life improvements for Villagers. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [No Feather Trample](https://modrinth.com/mod/no-feather-trample) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ✅ | 🟠 | Prevents farmland blocks from being trampled while having Feather/Slow Falling. | [Collective](https://modrinth.com/mod/collective) |
+| [Scaffolding Drops Nearby](https://modrinth.com/mod/scaffolding-drops-nearby) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟡 | When breaking a scaffolding block, all chained blocks will drop at the block's position. | [Collective](https://modrinth.com/mod/collective) |
+| [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | [MisterPeModder](https://modrinth.com/user/MisterPeModder) | REPLACE_VER | ✅ | 🟢 | View the contents of shulker boxes from your inventory. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Sit](https://modrinth.com/mod/bl4cks-sit) | [bl4ckscor3](https://modrinth.com/user/bl4ckscor3) | REPLACE_VER | ✅ | 🟡 | Allows you to sit on slabs and stairs. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -159,6 +162,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.6 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
 | [Fabric Seasons](https://modrinth.com/mod/fabric-seasons) | [D4rkness_King](https://modrinth.com/user/D4rkness_King) | 1.21.1 | ❌ | 🟡 | A simple mod that adds seasons to the game, dynamically changing biomes as you play. ***Do not use alongside Serene Seasons.*** | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Serene Seasons](https://modrinth.com/mod/serene-seasons) | [Adubbz](https://modrinth.com/user/Adubbz) | REPLACE_VER | ✅ | 🟡 | A Minecraft mod that adds seasons. Alternative to **Fabric Seasons**.  | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -183,6 +187,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Fog](https://modrinth.com/mod/fog) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.5 | ✅ | 🟡 | Enhances fog rendering with dynamic, customizable effects—improving atmosphere and depth while preserving the vanilla experience and maintaining compatibility with shaders and other mods. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru)<br> 🔸[Architectury API](https://modrinth.com/mod/architectury-api) |
 | [Loot beams](https://modrinth.com/mod/loot-beams-up) | [EnsoX](https://modrinth.com/user/EnsoX) | 1.21.4 | ✅ | 🟠 | Loot beams for items. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Mod Menu](https://modrinth.com/mod/modmenu)<br> 🔸[*Prism**](https://modrinth.com/mod/prism-lib) |
 | [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟠 | Bringing first-person animations to the third-person. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Particle Interactions](https://modrinth.com/mod/particle-interactions) | [https://modrinth.com/user/enchanted-games](https://modrinth.com/user/enchanted-games) | REPLACE_VER | ✅ | 🟡 | Adds particles to more interactions in the game, such as placing blocks or stripping logs. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Particle Rain](https://modrinth.com/mod/particle-rain) | [PigCart](https://modrinth.com/user/PigCart) | REPLACE_VER | ✅ | 🟡 | Replaces weather with prettier particle effects. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Particular](https://modrinth.com/mod/particular) | [Chai](https://modrinth.com/user/Chai) | REPLACE_VER | ✅ | 🟡 | Enhances Minecraft's ambience with hand-crafted visual effects like fireflies, falling leaves, and waterfall cascades. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[oωo (owo-lib)](https://modrinth.com/mod/owo-lib)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Physics Mod](https://www.patreon.com/c/Haubna/posts) | [Haubna](https://www.patreon.com/c/Haubna/home) | REPLACE_VER | ❌ | 🔴 | Adds physics in game. | *none* |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -212,6 +220,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.6 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [SeasonHUD-Fabric](https://modrinth.com/mod/seasonhud-fabric) | [IanAnderson](https://modrinth.com/user/lanAnderson) | REPLACE_VER | ✅ | 🟡 | This is an addon for **FabricSeasons** and **Serene Seasons** that displays the current season on the HUD or under the minimap | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
