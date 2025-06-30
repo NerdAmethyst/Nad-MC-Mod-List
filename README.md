@@ -1,13 +1,35 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/NerdAmethyst/Nad-s-Mod-List/update-readme.yml?style=flat-square&logo=github&label=Update%20Mod%20Versions)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NerdAmethyst/Nad-s-Mod-List?style=flat-square&color=blue)
 
-# **Nad's Mod List** 
+# 📃**Nad's Mod List** 
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
 <br>
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.4-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
-![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)
+![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
+<br>
+The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
+<br>
+I provided label guides for the list which reflects on what resources I currently use and how essential each of them for my gameplay.<br>
+This only reflects my personal gameplay style which you are free to use as a guide and modify to fit your own style.<br>
+
+---
+
+**📌‼️Disclamier:** The mods, shader packs, resource packs, and data packs included in the list belongs to their respective authors. I have no affiliation with any included in the list nor any of the authors/owners. 
+
+---
+
+# Guide
+
+The is separated between mods, shaders, resource packs, and data packs in a single .md file (*README*).<br>
+<br>
+The mod list contains all the mods and categorized as Libraries & APIs, Optimization mods, Alternative mods for Optifine features, Quality of Life (QOL) mods, Vanilla+ Tweaks mods, Visual, Auditory, Utility, and Exploration & World Gen Mods.<br> 
+<br>
+The **Libraries & APIs** are dependency mods required by dependent mods in order to run or function.<br>
+**Optimization Mods** *(also known as Performance Mods)* are mods that provide performace improvements by optimizing how the game handles and mitigate the use on resources.<br>
+**Optifine Alternatives** are mos that offer features as alternatves to using Optifine.<br>
+**Quality of Life** mods improves gameplay experience by .
 
 ---
 
@@ -26,13 +48,14 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 <br>
 ![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)
 
-> 📌 *Some mods that aren't in use might have out of date information in the list.*
+> 📌 *Some mods that aren't in use might have out of date information in the list.*<br>
+> 📌 *Only download mods from trusted sources.*
 
 ## Labels
 - 🟢 = Frequent Updates & Use / Essential
 - 🟡 = Moderate Updates & Use / Fairly Essential
 - 🟠 = Rare Use & Updates / Fairly Optional 
-- 🔴 = Occasional Use/Irregular Updates / Mostly Optional<br>
+- 🔴 = Occasional Use / Irregular Updates / Mostly Optional<br>
 
 ---
 
