@@ -1,9 +1,11 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/NerdAmethyst/Nad-s-Mod-List/update-readme.yml?style=flat-square&logo=github&label=Update%20Mod%20Versions)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NerdAmethyst/Nad-s-Mod-List?style=flat-square&color=blue)
 
-# **Nad's Mod List**
+# **Nad's Mod List** 
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
+<br>
+![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.4-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)
 
