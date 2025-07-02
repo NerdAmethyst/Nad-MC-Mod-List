@@ -11,7 +11,7 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 <br>
 The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
 
----
+#
 
 **📌‼️Disclamier:** The mods, shader packs, resource packs, and data packs included in the list belongs to their respective authors. I have no affiliation with any included in the list nor any of the authors/owners. 
 
@@ -32,11 +32,15 @@ The mod list contains all the mods and categorized as Libraries & APIs, Optimiza
 🔹**Auditory** mods adds more and improves sound ambience or effects of the game.<br> 
 🔹**Utility** mods add useful features and tools in-game.<br>
 🔹**World Gen and Exploration** mods improves terrain by changing world generation. Adding new features, structures, and biomes to explore making exlopartion more enjoyable.<br>
-<br>
+
+#
+
 📌 Some mods require dependencies in order to run or function properly. If the game fails to run or crashed, there might be dependencies missing, incompatible or wrong version, wrong mod loader, or mods that aren't compatible with one another. To troubleshoot, make sure all your mods are compatible, check for missing mods, and make sure you're using the right version and mod loader.<br>
 
 📌 For Shaders, make sure to use the full releases and correct versions to avoid bugs and glitches, and to ensure compatability with the latest version of ***Iris shaders***. For resource packs and data packs, make sure the pack uses the right pack format/s that supports your game version.<br>
-<br>
+
+#
+
 📌&nbsp; I provided label guides for the list which reflects on what resources I currently use and how essential each of them for my gameplay.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This only reflects my personal gameplay style which you are free to use as a guide and modify to fit your own style.<br>
 
@@ -66,7 +70,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 - 🟠 = Rare Use & Updates / Fairly Optional 
 - 🔴 = Occasional Use / Irregular Updates / Mostly Optional<br>
 
----
+#
 
 - ✅ = In use
 - ⏺️ = Waiting for Update
