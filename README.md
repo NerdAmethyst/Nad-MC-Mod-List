@@ -76,7 +76,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ---
 
 ## Categories
-- [Libraries & APIs](#Libraries-&-APIs "Mods essential to support or run other mods.")
+- [Libraries & APIs](#Libraries--APIs "Mods essential to support or run other mods.")
 - [Optimization](#Optimization "Mods for improving game perfoamnce and optimizations.")
 - [Optifine Alternatives](#Optifine-Alternatives "Mods that add features from Optifine.")
 - [Quality of Life (QOL)](#Quality-of-Life-Mods-QOL "Mods that improves gameplay experience.")
