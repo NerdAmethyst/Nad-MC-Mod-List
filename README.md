@@ -37,7 +37,7 @@ The mod list contains all the mods and categorized as Libraries & APIs, Optimiza
 
 📌 Some mods require dependencies in order to run or function properly. If the game fails to run or crashed, there might be dependencies missing, incompatible or wrong version, wrong mod loader, or mods that aren't compatible with one another. To troubleshoot, make sure all your mods are compatible, check for missing mods, and make sure you're using the right version and mod loader.<br>
 
-📌 For Shaders, make sure to use the full releases and correct versions to avoid bugs and glitches, and to ensure compatability with the latest version of ***Iris shaders***. For resource packs and data packs, make sure the pack uses the right pack format/s that supports your game version.<br>
+📌 For Shaders, make sure to use the full releases and correct versions to avoid bugs and glitches, and to ensure compatability with the latest version of ***Iris shaders***. For resource packs and data packs, make sure the pack uses the right pack format/s that supports your game version.
 
 #
 
@@ -186,6 +186,11 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Scaffolding Drops Nearby](https://modrinth.com/mod/scaffolding-drops-nearby) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ✅ | 🟡 | When breaking a scaffolding block, all chained blocks will drop at the block's position. | [Collective](https://modrinth.com/mod/collective) |
 | [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | [MisterPeModder](https://modrinth.com/user/MisterPeModder) | 1.21.6 | ✅ | 🟢 | View the contents of shulker boxes from your inventory. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Sit](https://modrinth.com/mod/bl4cks-sit) | [bl4ckscor3](https://modrinth.com/user/bl4ckscor3) | 1.21.7 | ✅ | 🟡 | Allows you to sit on slabs and stairs. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [Stack Refill](https://modrinth.com/mod/stack-refill) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟡 | Automatically refills the item stack in the player's hand if there is any of the same item in the inventory. | [Collective](https://modrinth.com/mod/collective) |
+| [Tree Harvester](https://modrinth.com/mod/tree-harvester) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟡 | Harvest full trees and huge mushrooms instantly with an axe. Includes fast leaf decay and sapling placement. | [Collective](https://modrinth.com/mod/collective) |
+| [WTHIT](https://modrinth.com/mod/wthit) | [deirn](https://modrinth.com/user/deirn) | REPLACE_VER | ✅ | 🟡 | Adds an ingame tooltip with information about what block (or fluid) the player is looking at. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[bad packets](https://modrinth.com/mod/badpackets)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Xaero's Minimap](https://chocolateminecraft.com/minimapdownload.php) | [Xaero](https://modrinth.com/user/thexaero) | REPLACE_VER | ✅ | 🟢 | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Xaero's World Map](https://chocolateminecraft.com/worldmap.php) | [Xaero](https://modrinth.com/user/thexaero) | REPLACE_VER | ✅ | 🟢 | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -201,6 +206,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
 | [Fabric Seasons](https://modrinth.com/mod/fabric-seasons) | [D4rkness_King](https://modrinth.com/user/D4rkness_King) | 1.21.1 | ❌ | 🟡 | A simple mod that adds seasons to the game, dynamically changing biomes as you play. ***Do not use alongside Serene Seasons.*** | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Serene Seasons](https://modrinth.com/mod/serene-seasons) | [Adubbz](https://modrinth.com/user/Adubbz) | 1.21.6 | ✅ | 🟡 | A Minecraft mod that adds seasons. Alternative to **Fabric Seasons**.  | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
+| [Snow Under Trees (Fabric)](https://modrinth.com/mod/snow-under-trees-remastered) | [IMB11](https://modrinth.com/user/IMB11) | REPLACE_VER | ✅ | 🟡 | Adds snow under trees in snowy biomes, making the biomes more immersive. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
+| [Villager Names](https://modrinth.com/mod/villager-names-serilum) | [Serilum](https://modrinth.com/user/Serilum) | REPLACE_VER | ✅ | 🟡 | Gives all villager entities a default or custom name to liven up the world. | [Collective](https://modrinth.com/mod/collective) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -229,6 +236,10 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Particle Rain](https://modrinth.com/mod/particle-rain) | [PigCart](https://modrinth.com/user/PigCart) | 1.21.5 | ✅ | 🟡 | Replaces weather with prettier particle effects. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Particular](https://modrinth.com/mod/particular) | [Chai](https://modrinth.com/user/Chai) | 1.21.4 | ✅ | 🟡 | Enhances Minecraft's ambience with hand-crafted visual effects like fireflies, falling leaves, and waterfall cascades. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[oωo (owo-lib)](https://modrinth.com/mod/owo-lib)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Physics Mod](https://modrinth.com/mod/physicsmod) | [Haubna](https://www.patreon.com/c/Haubna/home) | 1.21.7 | ❌ | 🔴 | Adds physics in game. *The Pro Version can be dowloaded for free from the author's* [**Patreon**](https://www.patreon.com/c/Haubna/posts). | *none* |
+| [Sodium Shadowy Path Blocks](https://modrinth.com/mod/sodium-shadowy-path-blocks) | [Rynnavinx](https://modrinth.com/user/Rynnavinx) | REPLACE_VER | ✅ | 🟢 | Reintroduces vanilla-like smooth lighting to non-full blocks (e.g. dirt paths and how they have dark shading when directly next to a full block) when using Sodium. | [Sodium](https://modrinth.com/mod/sodium) |
+| [Subtle Effects](https://modrinth.com/mod/subtle-effects) | [MincraftEinstein](https://modrinth.com/user/MincraftEinstein) | REPLACE_VER | ✅ | 🟡 | Adding many new subtle details through particles and a few sounds. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Fzzy Config](https://modrinth.com/mod/fzzy-config) |
+| [Visuality](https://modrinth.com/mod/visuality) | [PinkGoosik](https://modrinth.com/user/PinkGoosik) | REPLACE_VER | ✅ | 🟡 | Little visual improvements by adding a bunch of new particles. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [Wakes](https://modrinth.com/mod/wakes) | [Goby56](https://modrinth.com/user/Goby56) | REPLACE_VER | ❌ | 🔴 | Adds splashes and wakes while traveling on water | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*YetAnotherConfigLib (YACL)*\*](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[*Iris Shaders**](https://modrinth.com/mod/iris) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -245,6 +256,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | 1.21.7 | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
 | [ExtraSounds Next](https://modrinth.com/mod/extrasoundsforge) | [Arborsm](https://modrinth.com/user/Arborsm) | 1.21.1 | ❌ | 🟠 | Adds more sounds to Minecraft, like sounds when you scroll the hotbar, the creative inventory, pick up or place items in inventories, and more. | *none* |
 | [ImmersiveThunder](https://modrinth.com/mod/immersivethunder) | [netcatgirl](https://modrinth.com/user/netcatgirl) | 1.21.6 | ✅ | 🟢 | A fabric mod that adds realistic and dynamic thunder sounds to Minecraft based on the player’s distance from the lightning strike. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [Sounds](https://modrinth.com/mod/sound) | [IMB11](https://modrinth.com/user/IMB11) | REPLACE_VER | ✅ | 🟡 | Adds a wide range of new and improved sound effects to Minecraft, letting you customize everything from block interactions to UI events. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
+| [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | [henkelmax](https://modrinth.com/user/henkelmax) | REPLACE_VER | ✅ | 🟢 | A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks. | 🔸[*Cloth Config API**](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -259,6 +272,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.7 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [SeasonHUD-Fabric](https://modrinth.com/mod/seasonhud-fabric) | [IanAnderson](https://modrinth.com/user/lanAnderson) | 1.21.6 | ✅ | 🟡 | This is an addon for **FabricSeasons** and **Serene Seasons** that displays the current season on the HUD or under the minimap | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
+| [Stendhal](https://modrinth.com/mod/stendhal) | [NebSpacefarer](https://modrinth.com/user/NebSpacefarer) | REPLACE_VER | ✅ | 🟡 | Stendhal is a client-side Fabric mod offering new and enhanced visual utilities for books, signs, anvil and the in-game chat. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
@@ -271,6 +285,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🧭Exploration & WorldGen
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
+| [Traveler's Titles](https://modrinth.com/mod/travelers-titles) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | REPLACE_VER | ✅ | 🟠 | Epic, RPG-like titles when entering biomes & dimensions. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api) 🔸[YUNG's API](https://modrinth.com/mod/yungs-api) 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ###### [Mod Categories⬅️](#Categories)<br>
