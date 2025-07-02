@@ -285,6 +285,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ---
 
 # 🏞Shaders
+
 | **Name** | **Version** | **Status** | **Description** |
 | :------: | :---------: | :--------: | :-------------- |
 | test | replace | alpha | lorem- |
@@ -293,8 +294,12 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 # 📦Resource Packs
 
+| **Name** | **Version** | **Status** | **Description** |
+| :------: | :---------: | :--------: | :-------------- |
+
 ---
 
 # 💼Data Packs
-- [Libraries & APIs](#Libraries-&-APIs "Mods essential to support or run other mods.")
-- [Libraries & APIs](#Libraries--APIs "Mods essential to support or run other mods.")
+
+| **Name** | **Version** | **Status** | **Description** |
+| :------: | :---------: | :--------: | :-------------- |
