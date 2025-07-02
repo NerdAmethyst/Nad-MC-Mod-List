@@ -88,8 +88,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Libraries & APIs
-🗃️
+##  🗃️Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.6 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
@@ -117,7 +116,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## ⚡Optimization
+##  ⚡Optimization
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.7 | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | *none* |
