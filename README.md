@@ -288,3 +288,5 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ---
 
 # 💼Data Packs
+- [Libraries & APIs](#Libraries-&-APIs "Mods essential to support or run other mods.")
+- [Libraries & APIs](#Libraries--APIs "Mods essential to support or run other mods.")
