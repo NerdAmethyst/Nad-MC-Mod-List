@@ -76,14 +76,14 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ---
 
 ## Categories
-- [Libraries & APIs](#Libraries--APIs "Mods essential to support or run other mods.")
+- [Libraries & APIs](#-Libraries--APIs "Mods essential to support or run other mods.")
 - [Optimization](#Optimization "Mods for improving game perfoamnce and optimizations.")
 - [Optifine Alternatives](#Optifine-Alternatives "Mods that add features from Optifine.")
 - [Quality of Life (QOL)](#Quality-of-Life-Mods-QOL "Mods that improves gameplay experience.")
-- [Vanilla+](#Vanilla-Tweaks "Adds sublte content or improvements on the vanilla experiance.")
+- [Vanilla+](#-Vanilla-Tweaks "Adds sublte content or improvements on the vanilla experiance.")
 - [Visual Mods](#Visual-Mods "Mods that add visual improvements.")
 - [Auditory Mods](#Auditory-Mods "Mods that add auditory improvements")
-- [Utility Mods](#Utility-Mods "Mods that are useful tools for the game.")
+- [Utility Mods](#-Utility-Mods "Mods that are useful tools for the game.")
 - [Exploration & WorldGen](#Exploration--WorldGEn "Mods that changes add features to the terrain and exploration experience.")
 
 ---
