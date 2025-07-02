@@ -10,9 +10,6 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
 The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
-<br>
-I provided label guides for the list which reflects on what resources I currently use and how essential each of them for my gameplay.<br>
-This only reflects my personal gameplay style which you are free to use as a guide and modify to fit your own style.<br>
 
 ---
 
@@ -20,25 +17,32 @@ This only reflects my personal gameplay style which you are free to use as a gui
 
 ---
 
-# Guide
+# 📜Guide
 
 The is separated between mods, shaders, resource packs, and data packs in a single .md file (*README*).<br>
 <br>
 The mod list contains all the mods and categorized as Libraries & APIs, Optimization mods, Alternative mods for Optifine features, Quality of Life (QOL) mods, Vanilla+ Tweaks mods, Visual, Auditory, Utility, and Exploration & World Gen Mods.<br> 
 <br>
-The **Libraries & APIs** are dependency mods required by dependent mods in order to run or function.<br>
-**Optimization Mods** *(also known as Performance Mods)* are mods that provide performace improvements by optimizing how the game handles and mitigate the use on resources.<br>
-**Optifine Alternatives** are mos that offer features as alternatves to using Optifine.<br>
-**Quality of Life** mods improves gameplay experience by adding convinient and useful features for ease of use.<br>
-**Vanilla+ Tweaks** are mods that build upon vanilla features, adding or improving the vanilla gameplay.<br>
-**Visual** mods improves the visual experience during gameplay.<br>
-**Auditory** mods adds more and improves sound ambience or effects of the game. 
-**Utility** mods add useful features and tools in-game.
-**World Gen and Exploration** mods improves terrain by changing world generation. Adding new features, structures, and biomes to explore making exlopartion more enjoyable.
+🔹The **Libraries & APIs** are dependency mods required by dependent mods in order to run or function.<br>
+🔹**Optimization Mods** *(also known as Performance Mods)* are mods that provide performace improvements by optimizing how the game handles and mitigate the use on resources.<br>
+🔹**Optifine Alternatives** are mos that offer features as alternatves to using Optifine.<br>
+🔹**Quality of Life** mods improves gameplay experience by adding convinient and useful features for ease of use.<br>
+🔹**Vanilla+ Tweaks** are mods that build upon vanilla features, adding or improving the vanilla gameplay.<br>
+🔹**Visual** mods improves the visual experience during gameplay.<br>
+🔹**Auditory** mods adds more and improves sound ambience or effects of the game.<br> 
+🔹**Utility** mods add useful features and tools in-game.<br>
+🔹**World Gen and Exploration** mods improves terrain by changing world generation. Adding new features, structures, and biomes to explore making exlopartion more enjoyable.<br>
+<br>
+📌 Some mods require dependencies in order to run or function properly. If the game fails to run or crashed, there might be dependencies missing, incompatible or wrong version, wrong mod loader, or mods that aren't compatible with one another. To troubleshoot, make sure all your mods are compatible, check for missing mods, and make sure you're using the right version and mod loader.<br>
+
+📌 For Shaders, make sure to use the full releases and correct versions to avoid bugs and glitches, and to ensure compatability with the latest version of ***Iris shaders***. For resource packs and data packs, make sure the pack uses the right pack format/s that supports your game version.<br>
+<br>
+📌&nbsp; I provided label guides for the list which reflects on what resources I currently use and how essential each of them for my gameplay.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This only reflects my personal gameplay style which you are free to use as a guide and modify to fit your own style.<br>
 
 ---
 
-# **Lists**
+# 📝**Lists**
 - [Mods](#Mod-List "A mod list contatining the mods I use/used for gameplay.")
 - [Shaders](#Shaders "A list of shaders I use for gameplay")
 - [Resource Packs](#Resource-Packs "Useful and aesthetic resource packs that adds visual customization and improvements in game.")
@@ -46,7 +50,7 @@ The **Libraries & APIs** are dependency mods required by dependent mods in order
 
 ---
 
-# **Mod List**
+# 💽**Mod List**
 
 🗒️***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
 I primarily download most of the mods from [Modrinth](https://modrinth.com "Only download mods from trusted sources.")  while a few are from [Curseforge](https://www.curseforge.com/minecraft "Only download mods from trusted sources.").<br>
@@ -84,7 +88,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Libraries & APIs
+## 🗃️Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.6 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
@@ -112,7 +116,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Optimization
+## ⚡Optimization
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | [thosea](https://modrinth.com/user/thosea) | 1.21.7 | ✅ | 🟢 | Optimization mod that focuses on things other than rendering. | *none* |
@@ -144,7 +148,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Optifine Alternatives
+## 📚Optifine Alternatives
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Continuity](https://modrinth.com/mod/continuity) | [PepperCode1](https://modrinth.com/user/PepperCode1) | 1.21.5 | ✅ | 🟢 | A Fabric mod that allows for efficient connected textures | [Fabric API](https://modrinth.com/mod/fabric-api) |
@@ -161,7 +165,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Quality of Life Mods (QOL)
+## ⌛Quality of Life Mods (QOL)
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Anvil Never Too Expensive](https://modrinth.com/mod/ante) | [tinytransfem](https://modrinth.com/user/tinytransfem) | 1.21.4 | ✅ | 🟠 | Removes the Anvil Level Cap. | *none* |
@@ -187,7 +191,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Vanilla+ Tweaks
+## ⚙️Vanilla+ Tweaks
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
@@ -202,7 +206,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Visual Mods
+## 🌌Visual Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | [tr7zw](https://modrinth.com/user/tr7zw) | 1.21.6 | ✅ | 🟡 | Render the player skin layer in 3d. | [Fabric API](https://modrinth.com/mod/fabric-api) |
@@ -230,7 +234,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Auditory Mods 
+## 🎧Auditory Mods 
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.5 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
@@ -246,7 +250,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Utility Mods
+## 🛠️Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.7 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
@@ -260,7 +264,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## Exploration & WorldGen
+## 🧭Exploration & WorldGen
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
@@ -272,15 +276,15 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-# Shaders
+# 🏞️Shaders
 | **Name** | **Version** | **Status** | **Description** |
 | :------: | :---------: | :--------: | :-------------- |
 | test | replace | alpha | lorem- |
 
 ---
 
-# Resource Packs
+# 📦Resource Packs
 
 ---
 
-# Data Packs
+# 💼Data Packs
