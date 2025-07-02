@@ -191,7 +191,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## ⚙️Vanilla+ Tweaks
+## ⚙Vanilla+ Tweaks
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
@@ -250,7 +250,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-## 🛠️Utility Mods
+## 🛠Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.7 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. |🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
@@ -276,7 +276,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-# 🏞️Shaders
+# 🏞Shaders
 | **Name** | **Version** | **Status** | **Description** |
 | :------: | :---------: | :--------: | :-------------- |
 | test | replace | alpha | lorem- |
