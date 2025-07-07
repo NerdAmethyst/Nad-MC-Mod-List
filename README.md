@@ -269,23 +269,33 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Freecam](https://modrinth.com/mod/freecam) | [hashalite](https://modrinth.com/user/hashalite) | 1.21.6 | ✅ | 🟢 | A highly customizable freecam mod. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [LAN World Plug-n-Play \(mcwifipnp\)](https://modrinth.com/mod/mcwifipnp) | [satxm](https://modrinth.com/user/satxm) | 1.21.7 | ❌ | 🟡 | Enhance the vanilla "Open to LAN" Gui for listening port customization and removal of enforced authentication | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [MiniHUD](https://modrinth.com/mod/minihud) | [masa](https://modrinth.com/user/masa) | 1.21.7 | ❌ | 🟡 | A "mini F3" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc. | [MaLiLib](https://modrinth.com/mod/malilib) |
-| [Mod Menu](https://modrinth.com/mod/modmenu) | []() | 1.21.7 | :----: | :------: | :---------- | []() |
+| [Mod Menu](https://modrinth.com/mod/modmenu) | [Prospector](https://modrinth.com/user/Prospector) | 1.21.7 | ✅ | 🟢 | Adds a mod menu to view the list of mods you have installed. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [ReplayMod](https://modrinth.com/mod/replaymod) | [Johni0702](https://modrinth.com/user/Johni0702) | REPLACE_VER | ❌ | 🟠 | A Minecraft Mod to record, relive and share your experience. *Incompatible with Axiom.* | *none* |
 | [SeasonHUD-Fabric](https://modrinth.com/mod/seasonhud-fabric) | [IanAnderson](https://modrinth.com/user/lanAnderson) | 1.21.6 | ✅ | 🟡 | This is an addon for **FabricSeasons** and **Serene Seasons** that displays the current season on the HUD or under the minimap | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
 | [Stendhal](https://modrinth.com/mod/stendhal) | [NebSpacefarer](https://modrinth.com/user/NebSpacefarer) | 1.21.5 | ✅ | 🟡 | Stendhal is a client-side Fabric mod offering new and enhanced visual utilities for books, signs, anvil and the in-game chat. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | REPLACE_VER | ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
+| [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus) | [Sunekaer](https://modrinth.com/user/Sunekaer) | REPLACE_VER | ✅ | 🟡 | Disable's the Experimental Settings popup, which appears when you create or load world. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
-#guide
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
 
 ---
 
 ## 🧭Exploration & WorldGen
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Traveler's Titles](https://modrinth.com/mod/travelers-titles) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | Epic, RPG-like titles when entering biomes & dimensions. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api) 🔸[YUNG's API](https://modrinth.com/mod/yungs-api) 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
-| []() | []() | REPLACE_VER | :----: | :------: | :---------- | []() |
+| [Geophilic](https://modrinth.com/datapack/geophilic) | [https://modrinth.com/user/bebebea_loste](https://modrinth.com/user/bebebea_loste) | REPLACE_VER | ✅ | 🟠 | Improves vanilla Overworld biomes in a subtle and simple way. | *none* |
+| [Improved Pillager Outpost](https://modrinth.com/datapack/improved-pillager-outpost) | [Sashiro](https://modrinth.com/user/Sashiro) | REPLACE_VER | ✅ | 🟠 | Transforms the standard Minecraft Pillager Outpost into a formidable, fully-realized tower. Designed to enhance gameplay experience, introduces a more immersive and detailed structure that adds depth to your adventures. | *none* |
+| [Revamped Shipwrecks](https://modrinth.com/datapack/revamped-shipwrecks) | [Wpgradford](https://modrinth.com/user/Wpgradford)<br> [WightofShadows](https://modrinth.com/user/WightofShadows) | REPLACE_VER | ✅ | 🟠 | Shipwreck structures redesigned with jigsaw degradation stages, hundreds of unique combinations. | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Structory](https://modrinth.com/datapack/structory) | [Stardust Labs](https://modrinth.com/organization/stardust-labs) | REPLACE_VER | ✅ | 🟠 | A seasonally updated and atmospheric structure mod with light lore. | *none* |
+| [Structory: Towers](https://modrinth.com/datapack/structory-towers) | [Stardust Labs](https://modrinth.com/organization/stardust-labs) | REPLACE_VER | ✅ | 🟠 | Adds immersive, biome-themed towers to the world, such as outposts, fire towers, ocean monument pillars, Nether and End towers; and more. | *none* |
+| [Tectonic](https://modrinth.com/datapack/tectonic) | [Apollo](https://modrinth.com/user/Apollo) | REPLACE_VER | ❌ | 🟠 | Massively altered world generation with mountain ranges, underground rivers and more. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Lithostitched](https://modrinth.com/mod/lithostitched) |
+| [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | [Biban_Auriu](https://modrinth.com/user/Biban_Auriu "Owner")<br> [Cristelknight](https://modrinth.com/user/Cristelknight "Chief Engineer")<br> [Kubek727](https://modrinth.com/user/Kubek727 "Co-Owner") | REPLACE_VER | ✅ | 🟠 | Spice up your world with new villages, pillager outposts, and even new ships. | [Cristel Lib](https://modrinth.com/mod/cristel-lib) |
+| [Traveler's Titles](https://modrinth.com/mod/travelers-titles) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | Epic, RPG-like titles when entering biomes & dimensions. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[YUNG's API](https://modrinth.com/mod/yungs-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
+| [When Dungeons Arise](https://modrinth.com/mod/when-dungeons-arise) | [aureljz](https://modrinth.com/user/aureljz) | REPLACE_VER | ✅ | 🟠 | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [When Dungeons Arise: Seven Seas](https://modrinth.com/mod/when-dungeons-arise-seven-seas) | [aureljz](https://modrinth.com/user/aureljz) | REPLACE_VER | ✅ | 🟠 | Expansion of the structures mod When Dungeons Arise. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
+| [William Wythers' Overhauled Overworld](https://modrinth.com/mod/wwoo) | [Cristelknight](https://modrinth.com/user/Cristelknight) | REPLACE_VER | ✅ | 🟠 | Overhauls all vanilla biomes, with different sub biomes. | *none* |
+| [Yggdrasil](https://modrinth.com/datapack/yggdrasil-structure) | [Hardel-DW](https://modrinth.com/user/Hardel-DW) | REPLACE_VER | ❌ | 🟠 | A server mod that adds gigantic new structures to Minecraft. | *none* |
 
 ###### [Mod Categories⬅️](#Categories)<br>
 ###### [Back to Lists⬅️](#Lists)
