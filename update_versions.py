@@ -127,9 +127,14 @@ for line in lines:
             latest_version = fetch_latest_modrinth_version(slug)
             parts = line.strip().split('|')
             if len(parts) > game_version_col_index:
+                old_version = parts[game_version_col_index].strip()
                 parts[game_version_col_index] = f" {latest_version} "
-                updated_lines.append('|'.join(parts) + '\n')
-                print(f"\033[92m✓ Updated Modrinth project '{slug}' to version {latest_version}\033[0m")
+                updated_line = '|'.join(parts) + '\n'
+                updated_lines.append(updated_line)
+                if old_version != latest_version:
+                    print(f"\033[92m✓ Updated Modrinth project '{slug}' from '{old_version}' to '{latest_version}'\033[0m")
+                else:
+                    print(f"\033[93mℹ️ Modrinth project '{slug}' already up-to-date ({latest_version})\033[0m")
             else:
                 print(f"\033[93m⚠️ Row too short for '{slug}', skipped\033[0m")
                 updated_lines.append(line)
@@ -149,9 +154,14 @@ for line in lines:
                 latest_version = "N/A"
             parts = line.strip().split('|')
             if len(parts) > game_version_col_index:
+                old_version = parts[game_version_col_index].strip()
                 parts[game_version_col_index] = f" {latest_version} "
-                updated_lines.append('|'.join(parts) + '\n')
-                print(f"\033[92m✓ Updated CurseForge mod '{slug}' to version {latest_version}\033[0m")
+                updated_line = '|'.join(parts) + '\n'
+                updated_lines.append(updated_line)
+                if old_version != latest_version:
+                    print(f"\033[92m✓ Updated CurseForge mod '{slug}' from '{old_version}' to '{latest_version}'\033[0m")
+                else:
+                    print(f"\033[93mℹ️ CurseForge mod '{slug}' already up-to-date ({latest_version})\033[0m")
             else:
                 print(f"\033[93m⚠️ Row too short for mod '{slug}', skipped\033[0m")
                 updated_lines.append(line)
@@ -162,8 +172,15 @@ for line in lines:
         # Keep non-matching lines unchanged
         updated_lines.append(line)
 
-# --- Write updated README.md ---
-with open("README.md", "w", encoding="utf-8") as f:
-    f.writelines(updated_lines)
+# --- Compare and write only if content changed ---
+new_content = ''.join(updated_lines)
 
-print("\033[92m✅ Finished updating all tables dynamically.\033[0m")
+with open("README.md", 'r', encoding='utf-8') as f:
+    old_content = f.read()
+
+if new_content != old_content:
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print("\033[92m✅ README.md updated with new versions.\033[0m")
+else:
+    print("\033[93mℹ️ README.md already up-to-date; no changes made.\033[0m")
