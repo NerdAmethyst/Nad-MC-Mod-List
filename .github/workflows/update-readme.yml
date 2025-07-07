@@ -31,7 +31,7 @@ jobs:
           ${{ runner.os }}-pip-
 
     - name: Install dependencies
-      run: pip install requests packaging
+      run: pip install -r requirements.txt
 
     - name: Run update script
       run: python update_versions.py
