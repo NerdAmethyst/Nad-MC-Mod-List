@@ -273,7 +273,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [ReplayMod](https://modrinth.com/mod/replaymod) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.7 | ❌ | 🟠 | A Minecraft Mod to record, relive and share your experience. *Incompatible with Axiom.* | *none* |
 | [SeasonHUD-Fabric](https://modrinth.com/mod/seasonhud-fabric) | [IanAnderson](https://modrinth.com/user/lanAnderson) | 1.21.6 | ✅ | 🟡 | This is an addon for **FabricSeasons** and **Serene Seasons** that displays the current season on the HUD or under the minimap | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
 | [Stendhal](https://modrinth.com/mod/stendhal) | [NebSpacefarer](https://modrinth.com/user/NebSpacefarer) | 1.21.5 | ✅ | 🟡 | Stendhal is a client-side Fabric mod offering new and enhanced visual utilities for books, signs, anvil and the in-game chat. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | REPLACE_VER | ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
+| [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | 1.21.7 | ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
 | [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus) | [Sunekaer](https://modrinth.com/user/Sunekaer) | 1.21.4 | ✅ | 🟡 | Disable's the Experimental Settings popup, which appears when you create or load world. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
