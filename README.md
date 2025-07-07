@@ -115,8 +115,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | [isxander](https://modrinth.com/user/isxander) | 1.21.7 | ✅ | 🟢 | A builder-based configuration library for Minecraft. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [YUNG's API](https://modrinth.com/mod/yungs-api) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | Library mod for YUNG's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -147,8 +148,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Sodium Extras](https://modrinth.com/mod/sodium-extras) | [Txni](https://modrinth.com/user/Txni) | 1.21.5 | ✅ | 🟢 | An add-on mod for Sodium that adds new features and customization. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
 | [Sodium Leaf Culling](https://modrinth.com/mod/sodiumleafculling) | [Txni](https://modrinth.com/user/Txni) | 1.21.1 | ⏺️ | 🟢 | Smart leaf culling algorithm for Sodium on 1.21+. | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -164,8 +166,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights) | [Txni](https://modrinth.com/user/Txni) | 1.21.5 | ❌ | 🟡 | Multiloader port of LambDynLights that adds Sodium options integration. *Alternative for LambDynamicLights.* | 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium Options API](https://modrinth.com/mod/sodium-options-api) |
 | [Zoomify](https://modrinth.com/mod/zoomify) | [isxander](https://modrinth.com/user/isxander) | 1.21.7 | ✅ | 🟢 | A zoom mod with infinite customizability. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -192,8 +195,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Xaero's Minimap](https://chocolateminecraft.com/minimapdownload.php) | [Xaero](https://modrinth.com/user/thexaero) | 1.21.7 | ✅ | 🟢 | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Xaero's World Map](https://chocolateminecraft.com/worldmap.php) | [Xaero](https://modrinth.com/user/thexaero) | 1.21.7 | ✅ | 🟢 | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -206,8 +210,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Snow Under Trees (Fabric)](https://modrinth.com/mod/snow-under-trees-remastered) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.5 | ✅ | 🟡 | Adds snow under trees in snowy biomes, making the biomes more immersive. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
 | [Villager Names](https://modrinth.com/mod/villager-names-serilum) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ✅ | 🟡 | Gives all villager entities a default or custom name to liven up the world. | [Collective](https://modrinth.com/mod/collective) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -236,8 +241,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Visuality](https://modrinth.com/mod/visuality) | [PinkGoosik](https://modrinth.com/user/PinkGoosik) | 1.21.7 | ✅ | 🟡 | Little visual improvements by adding a bunch of new particles. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
 | [Wakes](https://modrinth.com/mod/wakes) | [Goby56](https://modrinth.com/user/Goby56) | 1.21.4 | ❌ | 🔴 | Adds splashes and wakes while traveling on water | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[*YetAnotherConfigLib (YACL)*\*](https://modrinth.com/mod/yacl)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu)<br> 🔸[*Iris Shaders**](https://modrinth.com/mod/iris) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -251,8 +257,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Sounds](https://modrinth.com/mod/sound) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.5 | ✅ | 🟡 | Adds a wide range of new and improved sound effects to Minecraft, letting you customize everything from block interactions to UI events. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[M.R.U.](https://modrinth.com/mod/mru) |
 | [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | [henkelmax](https://modrinth.com/user/henkelmax) | 1.21.7 | ✅ | 🟢 | A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks. | 🔸[*Cloth Config API**](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -276,8 +283,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | 1.21.7 | ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
 | [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus) | [Sunekaer](https://modrinth.com/user/Sunekaer) | 1.21.4 | ✅ | 🟡 | Disable's the Experimental Settings popup, which appears when you create or load world. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -304,9 +312,9 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [YUNG's Better Ocean Monuments](https://modrinth.com/mod/yungs-better-ocean-monuments) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | A complete redesign of Minecraft's ocean monuments. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[YUNG's API](https://modrinth.com/mod/yungs-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | A complete redesign of Minecraft's strongholds. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[YUNG's API](https://modrinth.com/mod/yungs-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
-###### [Mod Categories⬅️](#Categories)<br>
-###### > [Back to Lists⬅️](#Lists)
-###### > [Back to Top⬅️](#Nads-Mod-List)
+###### [Mod Categories »](#Categories)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
