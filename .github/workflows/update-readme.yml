@@ -68,5 +68,5 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         TIMESTAMP=$(TZ='Asia/Manila' date -u +"%Y-%m-%d %H:%M %Z")
         git add README.md
-        git commit -m "🤖 Auto-update supported Minecraft versions on ${TIMESTAMP} [skip ci]"
+        git commit -m "🤖 Auto-updated supported Minecraft versions on ${TIMESTAMP} [skip ci]"
         git push
