@@ -65,21 +65,29 @@ for line in lines:
         continue
 
     # Update Modrinth mods
-    if "https://modrinth.com/mod/" in line and game_version_col_index is not None:
-        match = re.search(r'\[.*?\]\(https://modrinth\.com/mod/([a-z0-9\-]+)\)', line)
-        if match:
-            slug = match.group(1)
-            latest_version = fetch_latest_modrinth_version(slug)
-            parts = line.strip().split('|')
-            if len(parts) > game_version_col_index:
-                parts[game_version_col_index] = f" {latest_version} "
-                updated_lines.append('|'.join(parts) + '\n')
-                print(f"\033[92m✓ Updated Modrinth mod '{slug}' to version {latest_version}\033[0m")
-            else:
-                print(f"\033[93m⚠️ Row too short for mod '{slug}', skipped\033[0m")
-                updated_lines.append(line)
+    if (
+        "https://modrinth.com/mod/" in line
+        or "https://modrinth.com/datapack/" in line
+        or "https://modrinth.com/resourcepack/" in line
+        or "https://modrinth.com/shader/" in line
+    ) and game_version_col_index is not None:
+    match = re.search(
+        r'\[.*?\]\(https://modrinth\.com/(mod|datapack|resourcepack|shader)/([a-z0-9\-]+)\)',
+        line
+    )
+    if match:
+        slug = match.group(2)
+        latest_version = fetch_latest_modrinth_version(slug)
+        parts = line.strip().split('|')
+        if len(parts) > game_version_col_index:
+            parts[game_version_col_index] = f" {latest_version} "
+            updated_lines.append('|'.join(parts) + '\n')
+            print(f"\033[92m✓ Updated Modrinth project '{slug}' to version {latest_version}\033[0m")
         else:
+            print(f"\033[93m⚠️ Row too short for '{slug}', skipped\033[0m")
             updated_lines.append(line)
+    else:
+        updated_lines.append(line)
 
     # Update CurseForge mods
     elif "https://www.curseforge.com/minecraft/mc-mods/" in line and game_version_col_index is not None:
