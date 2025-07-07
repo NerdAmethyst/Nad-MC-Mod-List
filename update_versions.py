@@ -12,6 +12,9 @@ curseforge_project_ids = {
     "inventory-hud-forge": 357540
 }
 
+# Cache for Modrinth project info to avoid multiple API calls
+modrinth_project_info_cache = {}
+
 # --- Functions ---
 
 def fetch_latest_modrinth_version(slug):
@@ -19,14 +22,19 @@ def fetch_latest_modrinth_version(slug):
     Fetch highest supported Minecraft version:
     - mods/plugins: must support Fabric
     - shaders/resourcepacks: use all versions, skip loader check
-    - datapacks: if loaders exist, must include Fabric; if no loaders, skip check
+    - datapacks: if loaders exist, require Fabric; if no loaders, skip check
     """
     try:
-        # 1) Fetch project info to get type
-        info_url = f"https://api.modrinth.com/v2/project/{slug}"
-        info_resp = requests.get(info_url, headers=headers)
-        info_resp.raise_for_status()
-        project = info_resp.json()
+        # 1) Fetch project info (cached)
+        if slug in modrinth_project_info_cache:
+            project = modrinth_project_info_cache[slug]
+        else:
+            info_url = f"https://api.modrinth.com/v2/project/{slug}"
+            info_resp = requests.get(info_url, headers=headers)
+            info_resp.raise_for_status()
+            project = info_resp.json()
+            modrinth_project_info_cache[slug] = project
+
         project_type = project.get("project_type")
 
         # 2) Fetch all versions
@@ -47,7 +55,7 @@ def fetch_latest_modrinth_version(slug):
                 if loaders and "fabric" not in loaders:
                     continue  # if loaders exist, require Fabric
 
-            # shaders & resourcepacks: skip loader check
+            # shaders/resourcepacks: skip loader check
 
             for gv in v.get("game_versions", []):
                 if re.match(r"^\d+(\.\d+){1,2}$", gv):
@@ -102,7 +110,7 @@ for line in lines:
         updated_lines.append(line)
         continue
 
-    # --- Update Modrinth mods / datapacks / resourcepacks / shaders / plugins ---
+    # --- Update Modrinth projects ---
     if (
         "https://modrinth.com/mod/" in line
         or "https://modrinth.com/datapack/" in line
