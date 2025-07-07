@@ -6,6 +6,10 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Runs once daily at midnight UTC
 
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -14,13 +18,13 @@ jobs:
       CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.11'  # pinned for stability
 
     - name: Set up pip cache
       uses: actions/cache@v3
@@ -34,15 +38,35 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run update script
-      run: python update_versions.py
+      run: |
+        set -e  # fail immediately if the script errors
+        python update_versions.py
+
+    - name: Check if README.md changed
+      id: check_readme
+      run: |
+        if git diff --exit-code README.md; then
+          echo "README_CHANGED=false" >> $GITHUB_ENV
+          echo "ℹ️ README.md has no changes; nothing to commit."
+        else
+          echo "README_CHANGED=true" >> $GITHUB_ENV
+          echo "✅ README.md has been updated; will commit."
+        fi
+
+    - name: Pull latest changes
+      if: env.README_CHANGED == 'true'
+      run: git pull origin ${{ github.ref_name }}
 
     - name: Set up authentication for push
+      if: env.README_CHANGED == 'true'
       run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
     - name: Commit and push changes
+      if: env.README_CHANGED == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
         git add README.md
-        git diff --cached --quiet || git commit -m "🤖 Auto-update supported Minecraft versions"
+        git commit -m "🤖 Auto-update supported Minecraft versions on ${TIMESTAMP} [skip ci]"
         git push
