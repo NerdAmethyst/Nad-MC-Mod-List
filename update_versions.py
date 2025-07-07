@@ -84,9 +84,10 @@ for line in lines:
         or "https://modrinth.com/datapack/" in line
         or "https://modrinth.com/resourcepack/" in line
         or "https://modrinth.com/shader/" in line
+        or "https://modrinth.com/plugin/" in line
     ) and game_version_col_index is not None:
         match = re.search(
-            r'\[.*?\]\(https://modrinth\.com/(mod|datapack|resourcepack|shader)/([a-z0-9\-]+)\)',
+            r'\[.*?\]\(https://modrinth\.com/(mod|datapack|resourcepack|shader|plugin)/([a-z0-9\-]+)\)',
             line
         )
         if match:
