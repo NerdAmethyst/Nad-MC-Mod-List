@@ -102,7 +102,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🗃Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.kjdas | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.7 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.7 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.7 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.7 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
@@ -287,7 +287,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [ReplayMod](https://modrinth.com/mod/replaymod) | [Johni0702](https://modrinth.com/user/Johni0702) | 1.21.7 | ❌ | 🟠 | A Minecraft Mod to record, relive and share your experience. *Incompatible with Axiom.* | *none* |
 | [SeasonHUD-Fabric](https://modrinth.com/mod/seasonhud-fabric) | [IanAnderson](https://modrinth.com/user/lanAnderson) | 1.21.6 | ✅ | 🟡 | This is an addon for **FabricSeasons** and **Serene Seasons** that displays the current season on the HUD or under the minimap | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
 | [Stendhal](https://modrinth.com/mod/stendhal) | [NebSpacefarer](https://modrinth.com/user/NebSpacefarer) | 1.21.5 | ✅ | 🟡 | Stendhal is a client-side Fabric mod offering new and enhanced visual utilities for books, signs, anvil and the in-game chat. | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | 1wda| ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
+| [WorldEdit](https://modrinth.com/plugin/worldedit) | [enginehub](https://modrinth.com/organization/enginehub) | 1.21.7 | ✅ | 🟢 | A Minecraft Map Editor that runs in-game. | *none* |
 | [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus) | [Sunekaer](https://modrinth.com/user/Sunekaer) | 1.21.4 | ✅ | 🟡 | Disable's the Experimental Settings popup, which appears when you create or load world. | [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ###### [Mod Categories »](#Categories)
@@ -359,7 +359,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
-| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | 1.ged | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | 1.21.5 | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) | 1.3 | 1.21.7 | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | 1.21.7 | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
