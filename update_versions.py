@@ -4,10 +4,10 @@ import requests
 from packaging.version import parse as parse_version
 
 # --- Settings ---
-headers = {"User-Agent": "ModListUpdater/1.0 (contact@example.com)"}  # put real email if you want
+headers = {"User-Agent": "ModListUpdater/1.0 (contact@example.com)"}
 CURSEFORGE_API_KEY = os.environ.get("CURSEFORGE_API_KEY")
 
-# Add CurseForge project IDs here if you have CurseForge mods
+# Add CurseForge project IDs here
 curseforge_project_ids = {
     "inventory-hud-forge": 357540
 }
@@ -16,34 +16,57 @@ curseforge_project_ids = {
 
 def fetch_latest_modrinth_version(slug):
     """
-    Fetch highest Fabric-supported Minecraft version for a Modrinth project.
+    Fetch highest supported Minecraft version:
+    - mods/plugins: must support Fabric
+    - shaders/resourcepacks: use all versions, skip loader check
+    - datapacks: if loaders exist, must include Fabric; if no loaders, skip check
     """
-    url = f"https://api.modrinth.com/v2/project/{slug}/version"
     try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        versions = response.json()
+        # 1) Fetch project info to get type
+        info_url = f"https://api.modrinth.com/v2/project/{slug}"
+        info_resp = requests.get(info_url, headers=headers)
+        info_resp.raise_for_status()
+        project = info_resp.json()
+        project_type = project.get("project_type")
+
+        # 2) Fetch all versions
+        versions_url = f"https://api.modrinth.com/v2/project/{slug}/version"
+        resp = requests.get(versions_url, headers=headers)
+        resp.raise_for_status()
+        versions = resp.json()
 
         all_versions = set()
         for v in versions:
-            if "fabric" in v.get("loaders", []):
-                for gv in v.get("game_versions", []):
-                    if re.match(r"^\d+(\.\d+){1,2}$", gv):
-                        all_versions.add(gv.strip())
+            loaders = v.get("loaders", []) or []
+
+            if project_type in ("mod", "plugin"):
+                if "fabric" not in loaders:
+                    continue  # require Fabric
+
+            elif project_type == "datapack":
+                if loaders and "fabric" not in loaders:
+                    continue  # if loaders exist, require Fabric
+
+            # shaders & resourcepacks: skip loader check
+
+            for gv in v.get("game_versions", []):
+                if re.match(r"^\d+(\.\d+){1,2}$", gv):
+                    all_versions.add(gv.strip())
 
         if all_versions:
             return sorted(all_versions, key=parse_version, reverse=True)[0]
         return "N/A"
+
     except Exception as e:
         print(f"\033[91m✗ Error fetching Modrinth project '{slug}': {e}\033[0m")
         return "Error"
 
 def fetch_latest_curseforge_version(project_id):
     """
-    Fetch highest supported Minecraft version for a CurseForge project.
+    Fetch highest supported Minecraft version from CurseForge files.
     """
-    url = f"https://api.curseforge.com/v1/mods/{project_id}/files"
     try:
+        url = f"https://api.curseforge.com/v1/mods/{project_id}/files"
         response = requests.get(url, headers={"x-api-key": CURSEFORGE_API_KEY})
         response.raise_for_status()
         files = response.json().get("data", [])
@@ -57,6 +80,7 @@ def fetch_latest_curseforge_version(project_id):
         if all_versions:
             return sorted(all_versions, key=parse_version, reverse=True)[0]
         return "N/A"
+
     except Exception as e:
         print(f"\033[91m✗ Error fetching CurseForge project ID {project_id}: {e}\033[0m")
         return "Error"
@@ -67,10 +91,10 @@ with open("README.md", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 updated_lines = []
-game_version_col_index = None  # dynamically detect for each table
+game_version_col_index = None  # detect dynamically for each table
 
 for line in lines:
-    # --- Detect header row dynamically ---
+    # Detect header row (works even with bold columns like **Game Version**)
     columns = [col.strip().lower().replace('*', '') for col in line.strip().split('|')]
     if 'game version' in columns:
         game_version_col_index = columns.index('game version')
@@ -78,7 +102,7 @@ for line in lines:
         updated_lines.append(line)
         continue
 
-    # --- Update Modrinth mods/datapacks/resourcepacks/shaders ---
+    # --- Update Modrinth mods / datapacks / resourcepacks / shaders / plugins ---
     if (
         "https://modrinth.com/mod/" in line
         or "https://modrinth.com/datapack/" in line
@@ -127,7 +151,7 @@ for line in lines:
             updated_lines.append(line)
 
     else:
-        # keep non-mod rows unchanged
+        # Keep non-matching lines unchanged
         updated_lines.append(line)
 
 # --- Write updated README.md ---
