@@ -54,6 +54,12 @@ The mod list contains all the mods and categorized as Libraries & APIs, Optimiza
 
 ---
 
+#
+
+#
+
+---
+
 # 💽**Mod List**
 
 🗒️***Note***: I use the [Fabric Loader](https://fabricmc.net "Only download and install fabric from fabricmc.net") for modded gameplay.
@@ -65,6 +71,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 > 📌 *Only download mods from trusted sources.*
 
 ## Labels
+
 - 🟢 = Frequent Updates & Use / Essential
 - 🟡 = Moderate Updates & Use / Fairly Essential
 - 🟠 = Rare Use & Updates / Fairly Optional 
@@ -318,11 +325,62 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
+#
+
+#
+
+---
+
 # 🏞Shaders
 
-| **Name** | **Version** | **Status** | **Description** |
-| :------: | :---------: | :--------: | :-------------- |
-| test | replace | alpha | lorem- |
+🗒️This is a list of shaders I use for gameplay and basis for creating a PBR resource pack. I download the shaders from [Modrinth](https://modrinth.com "Only download shaders from trusted sources."). Shaders are also available to download from [Curseforge](https://www.curseforge.com/minecraft "Only download Shaders from trusted sources.").<br>
+<br>
+![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)
+
+> 📌 For more information about shaders you can visit their own pages through Modrinth or Curseforge, or visit [shaderLABS](https://shaderlabs.org/wiki/Main_Page "More information about Minecraft shaderpacks made by the shaderLABS community"). I use [this](https://shaderlabs.org/wiki/LabPBR_Material_Standard "LabPBR Material Standard") as a guide for making PBR textures.
+> 
+> 📌 I separated the shders into different tables based on how frequently use them and which ones I use for making PBR textures.
+>
+> 📌‼️*Some information about the features might be wrong due to not being specified in shaderLABS or the mod's page.*
+
+## Labels
+
+- ✅ = In use
+- ⏺️ = Waiting for Update / Standby
+- ❌ = Unused
+
+#
+
+- ✔️ = Supported
+- ❌ = Unsupported
+- ❔ = Not Specified
+
+---
+
+| **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
+| :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
+| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+
+---
+
+| **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
+| :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
+| [AstraLex](https://modrinth.com/shader/astralex) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> |
+| [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels) | 1.3 | REPLACE_VER | High | ⏺️ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+
+###### [Shaders »](#Shaders)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
+###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
+
+---
+
+#
+
+#
 
 ---
 
@@ -330,6 +388,12 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 | **Name** | **Version** | **Status** | **Description** |
 | :------: | :---------: | :--------: | :-------------- |
+
+---
+
+#
+
+#
 
 ---
 
