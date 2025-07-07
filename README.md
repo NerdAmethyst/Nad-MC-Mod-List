@@ -359,18 +359,18 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
-| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
-| [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
-| [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | REPLACE_VER | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | N/A | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) | 1.3 | N/A | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | N/A | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
 ---
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
-| [AstraLex](https://modrinth.com/shader/astralex) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
-| [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> |
-| [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | REPLACE_VER | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
-| [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels) | 1.3 | REPLACE_VER | High | ⏺️ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [AstraLex](https://modrinth.com/shader/astralex) | 1.3 | N/A | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | N/A | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> |
+| [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | N/A | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels) | 1.3 | N/A | High | ⏺️ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
 ###### [Shaders »](#Shaders)
 ###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
