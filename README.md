@@ -305,8 +305,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 1.21.4 | ✅ | 🟠 | A complete redesign of Minecraft's strongholds. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[YUNG's API](https://modrinth.com/mod/yungs-api)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 
 ###### [Mod Categories⬅️](#Categories)<br>
-###### [Back to Lists⬅️](#Lists)
-###### [Back to Top⬅️](#Nads-Mod-List)
+###### > [Back to Lists⬅️](#Lists)
+###### > [Back to Top⬅️](#Nads-Mod-List)
 
 ---
 
