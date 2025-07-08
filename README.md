@@ -15,7 +15,7 @@ The main purpose of this is to keep track of all the mods I use and used in the 
 
 #
 
-**📌‼️Disclamier:** The mods, shader packs, resource packs, and data packs included in the list belongs to their respective authors. I have no affiliation with any included in the list nor any of the authors/owners. 
+**📌‼️Disclamier:** The mods, shader packs, resource packs, and data packs included in the list belongs to their respective authors and are licensed separately. I have no affiliation with any included in the list nor any of the authors/owners. 
 
 ---
 
