@@ -5,8 +5,8 @@
 
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay, such as my [Orilus](https://youtube.com/playlist?list=PLTETkoac7Z1WVLGHW8AaZcvnk0B1AuPYx&si=121QKKjpl3kyYide "Orilus series playlist.") series.<br>
 <br>
-[![Youtube](https://img.shields.io/badge/Youtube-%40NerdAmethyst-red?style=flat&logo=youtube&label=Youtube&color=%23FF0000)](https://www.youtube.com/@nerdamethyst)&nbsp;[![Static Badge](https://img.shields.io/badge/Reddit-u%2FNo-Dinner6388-white?style=flat&logo=reddit&label=Reddit&color=%23FF4500)](https://www.reddit.com/user/No-Dinner6388/)
-<br>
+**Socials:**<br> 
+[![Youtube](https://img.shields.io/badge/%40-NerdAmethyst-red?style=flat&logo=youtube&&color=%23FF0000)](https://www.youtube.com/@nerdamethyst "Youtube")&nbsp;[![Reddit](https://img.shields.io/badge/u%2FNo%2DDinner6388-white?style=flat&logo=reddit&color=%23FF4500)](https://www.reddit.com/user/No-Dinner6388/ "Reddit")&nbsp;[![Planet Minecraft](https://img.shields.io/badge/%F0%9F%8C%8FPlanet-Minecraft-white?style=flat&labelColor=%237CFC00&color=%23a66a15)](https://www.planetminecraft.com/member/nerdamethyst/ "Planet Minecraft (PMC)")&nbsp;[![Instagram](https://img.shields.io/badge/%40-NerdAmethyst-white?style=flat&logo=instagram&color=%23FF0069)](https://www.instagram.com/nerdamethyst/ "Instagram")<br>
 <br>
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.4-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
