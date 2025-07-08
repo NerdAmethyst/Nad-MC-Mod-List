@@ -111,7 +111,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Fabric API](https://modrinth.com/mod/fabric-api) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.7 | ✅ | 🟢 | Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain. | *none* |
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | [modmuss50](https://modrinth.com/user/modmuss50) | 1.21.7 | ✅ | 🟢 | This is a mod that enables usage of the Kotlin programming language for Fabric mods. | *none* |
 | [Fzzy Config](https://modrinth.com/mod/fzzy-config) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 1.21.7 | ✅ | 🟢 | Config API with automatic GUIs, powerful validation options, server-client sync, and more. | <ul><li>🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> </li>🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) |
-| [GlitchCore](https://modrinth.com/mod/glitchcore) | [Adubbz](https://modrinth.com/user/Adubbz) | 1.21.6 | ✅ | 🟡 | A library mod aimed at abstracting mod loaders and providing various utilities for Glitchfiend mods. | *none* |
+| [GlitchCore](https://modrinth.com/mod/glitchcore) | [Adubbz](https://modrinth.com/user/Adubbz) | 1.21.7 | ✅ | 🟡 | A library mod aimed at abstracting mod loaders and providing various utilities for Glitchfiend mods. | *none* |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | [Apollo](https://modrinth.com/user/Apollo) | 1.21.7 | ❌ | 🔴 | Library mod with new configurability and compatibility enhancements for worldgen. | *none* |
 | [MaLiLib](https://modrinth.com/mod/malilib) | [masa](https://modrinth.com/user/masa) | 1.21.7 | ❌ | 🔴 | A library mod for client-side mods. Contains most of the common/shared code of masa's client mods, and adds some inter-operation support between the dependent mods. | *none* |
 | [M.R.U.](https://modrinth.com/mod/mru) | [IMB11](https://modrinth.com/user/IMB11) | 1.21.7 | ✅ | 🟡 | A library mod used by IMB11's mods to function. | [Fabric API](https://modrinth.com/mod/fabric-api) |
@@ -398,9 +398,9 @@ I also occasionally use resource packs from [🌏Planet Minecraft](https://www.p
 
 | **Name** | **Creator** | **Game Version** | **Description** |
 | :------: | :---------: | :--------------: | :-------------- |
-| [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | [FreshLX](https://modrinth.com/user/FreshLX) | REPLACE_VER | Dynamic animated entities to freshen your Minecraft experience. |
-| [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | REPLACE_VER | Extra customisation for Fresh Animations. |
-| [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) | [TrasTick](https://modrinth.com/user/TrasTick)<br> [IthanMendoza](https://modrinth.com/user/IthanMendoza) | REPLACE_VER | Gives fancy animations to the player entity. |
+| [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.7 | Dynamic animated entities to freshen your Minecraft experience. |
+| [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.7 | Extra customisation for Fresh Animations. |
+| [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) | [TrasTick](https://modrinth.com/user/TrasTick)<br> [IthanMendoza](https://modrinth.com/user/IthanMendoza) | 1.21.4 | Gives fancy animations to the player entity. |
 
 ---
 
