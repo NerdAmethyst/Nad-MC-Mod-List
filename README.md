@@ -3,7 +3,8 @@
 
 # 📃**Nad's Mod List** 
 
-Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay.<br>
+Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay, such as my [Orilus](https://youtube.com/playlist?list=PLTETkoac7Z1WVLGHW8AaZcvnk0B1AuPYx&si=121QKKjpl3kyYide "Orilus series playlist.") series.<br>
+![Static Badge](https://img.shields.io/badge/Youtube-%40NerdAmethyst-red?style=social&logo=youtube&label=Youtube&color=%23FF0000&link=https%3A%2F%2Fwww.youtube.com%2F%40nerdamethyst)
 <br>
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.4-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
