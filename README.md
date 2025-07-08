@@ -402,9 +402,8 @@ I also occasionally use resource packs from [🌏Planet Minecraft](https://www.p
 | [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.7 | Extra customisation for Fresh Animations. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
 | [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) | [TrasTick](https://modrinth.com/user/TrasTick)<br> [IthanMendoza](https://modrinth.com/user/IthanMendoza) | 1.21.4 | Gives fancy animations to the player entity. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
 
-###### [Resource Packs »](#Resource-Packs)
-###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
-###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
+###### [Back to Lists »](#Lists)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
 ---
 
@@ -416,5 +415,15 @@ I also occasionally use resource packs from [🌏Planet Minecraft](https://www.p
 
 # 💼Data Packs
 
-| **Name** | **Version** | **Status** | **Description** |
-| :------: | :---------: | :--------: | :-------------- |
+🗒️I'm currently not using any data packs for my gamepplay as I mostly use mods that add the features I want. I'll be listing data packs in the future here.<br>
+You can find and download data packs from [Modrinth](https://modrinth.com "Only download Data packs from trusted sources."), [Curseforge](https://www.curseforge.com/minecraft "Only download Data packs from trusted sources."), [🌏Planet Minecraft](https://www.planetminecraft.com), and from [🖌️Vanilla Tweaks](https://vanillatweaks.net). <br>
+<br>
+![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)<br>
+<br>
+
+| **Name** | **Craetor** | **Game Version** | **Description** |
+| :------: | :---------: | :--------------: | :-------------- |
+| :------: | :---------: | :--------------: | :-------------- |
+
+###### [Back to Lists »](#Lists)
+###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
