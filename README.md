@@ -402,7 +402,7 @@ I also occasionally use resource packs from [🌏Planet Minecraft](https://www.p
 | [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.7 | Extra customisation for Fresh Animations. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
 | [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) | [TrasTick](https://modrinth.com/user/TrasTick)<br> [IthanMendoza](https://modrinth.com/user/IthanMendoza) | 1.21.4 | Gives fancy animations to the player entity. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
 
-###### [Shaders »](#Shaders)
+###### [Resource Packs »](#Resource-Packs)
 ###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
 ###### &nbsp;&nbsp;&nbsp;&nbsp; ⌊ &nbsp; [Back to Top »](#Nads-Mod-List)
 
