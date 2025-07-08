@@ -357,6 +357,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
+🗒️These shaders are what I commonly and frequently use for gameplay and basis for working on my PBR resource pack.
+
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
 | [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | 1.21.5 | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
@@ -364,6 +366,8 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | 1.21.7 | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
 ---
+
+🗒️The following shaders are alternatives I mainly use for screenshots and testing/showcasing PBR textures.
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
@@ -386,8 +390,17 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 # 📦Resource Packs
 
-| **Name** | **Version** | **Status** | **Description** |
-| :------: | :---------: | :--------: | :-------------- |
+🗒️The following resource packs are from and available on [Modrinth](https://modrinth.com "Only download Resource packs from trusted sources."). These packs are what I commonly use for gameplay. Some resource packs are also available on [Curseforge](https://www.curseforge.com/minecraft "Only download Resource packs from trusted sources."). <br>
+<br>
+![Static Badge](https://img.shields.io/badge/Modrinth--00AF5C?style=flat-square&logo=modrinth) ![Static Badge](https://img.shields.io/badge/Curseforge--F16436?style=flat-square&logo=curseforge)<br>
+<br>
+I also occasionally use resource packs from [🌏Planet Minecraft](https://www.planetminecraft.com) made by different creators, and from [🖌️Vanilla Tweaks](https://vanillatweaks.net) by the Vanilla Tweaks team which offers customizable resource packs.
+
+| **Name** | **Creator** | **Game Version** | **Description** |
+| :------: | :---------: | :--------------: | :-------------- |
+| [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | [FreshLX](https://modrinth.com/user/FreshLX) | REPLACE_VER | Dynamic animated entities to freshen your Minecraft experience. |
+| [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | REPLACE_VER | Extra customisation for Fresh Animations. |
+| [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) | [TrasTick](https://modrinth.com/user/TrasTick)<br> [IthanMendoza](https://modrinth.com/user/IthanMendoza) | REPLACE_VER | Gives fancy animations to the player entity. |
 
 ---
 
