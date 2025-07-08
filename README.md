@@ -3,7 +3,7 @@
 
 # 📃**Nad's Mod List** 
 
-[![Youtube](https://img.shields.io/badge/%40-NerdAmethyst-red?style=flat&logo=youtube&&color=%23FF0000)](https://www.youtube.com/@nerdamethyst "Youtube")&nbsp;[![Reddit](https://img.shields.io/badge/u%2FNo%2DDinner6388-white?style=flat&logo=reddit&color=%23FF4500)](https://www.reddit.com/user/No-Dinner6388/ "Reddit")&nbsp;[![Planet Minecraft](https://img.shields.io/badge/%F0%9F%8C%8FPlanet-Minecraft-white?style=flat&labelColor=%237CFC00&color=%23a66a15)](https://www.planetminecraft.com/member/nerdamethyst/ "Planet Minecraft (PMC)")&nbsp;[![Instagram](https://img.shields.io/badge/%40-NerdAmethyst-white?style=flat&logo=instagram&color=%23FF0069)](https://www.instagram.com/nerdamethyst/ "Instagram")<br>
+[![Youtube](https://img.shields.io/badge/%40-NerdAmethyst-red?style=flat&logo=youtube&&color=%23FF0000)](https://www.youtube.com/@nerdamethyst "Youtube")&nbsp;[![Reddit](https://img.shields.io/badge/u%2FNo%2DDinner6388-white?style=flat&logo=reddit&color=%23FF4500)](https://www.reddit.com/user/No-Dinner6388/ "Reddit")&nbsp;[![Planet Minecraft](https://img.shields.io/badge/%F0%9F%8C%8FPMC-NerdAmethyst-white?style=flat&labelColor=%237CFC00&color=%23a66a15)](https://www.planetminecraft.com/member/nerdamethyst/ "Planet Minecraft (PMC)")&nbsp;[![Instagram](https://img.shields.io/badge/%40-NerdAmethyst-white?style=flat&logo=instagram&color=%23FF0069)](https://www.instagram.com/nerdamethyst/ "Instagram")<br>
 <br>
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay, such as my [Orilus](https://youtube.com/playlist?list=PLTETkoac7Z1WVLGHW8AaZcvnk0B1AuPYx&si=121QKKjpl3kyYide "Orilus series playlist.") series.<br>
 <br>
