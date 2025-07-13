@@ -381,7 +381,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
 | [AstraLex](https://modrinth.com/shader/astralex) | 1.3 | 1.21.5 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | 1.21.5 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> |
-| [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | 1.21.6 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | 1.21.7 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels) | 1.3 | 1.21.6 | High | ⏺️ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
 ###### [Shaders »](#Shaders)
