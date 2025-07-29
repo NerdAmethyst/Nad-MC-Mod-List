@@ -111,7 +111,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
 | [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 1.21.8 |  | 🟡 | An intermediary api aimed to ease developing multiplatform mods.  | [Fabric API](https://modrinth.com/mod/fabric-api) |
-| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.8 |  | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
+| [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 1.21.8 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 1.21.7 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.8 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* |
 | [CreativeCore](https://modrinth.com/mod/creativecore) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.8 |  | 🟢 | Core mod required by most of CreativeMD's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) |
