@@ -16,6 +16,7 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
 The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
+> 📌I'm using fewer mods for this version to improve performance as much as possible.
 
 #
 
