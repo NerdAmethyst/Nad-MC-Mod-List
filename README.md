@@ -13,7 +13,7 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 <br>
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.5-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
-> 📌On this version, I'll be using fewer mods to improve performance as mush as possible.<br>
+
 <br>
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
