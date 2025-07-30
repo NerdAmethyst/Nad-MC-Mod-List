@@ -13,8 +13,6 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 <br>
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.5-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
-
-<br>
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
 The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
