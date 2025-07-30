@@ -192,7 +192,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## ⌛Quality of Life Mods (QOL)
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Anvil Never Too Expensive](https://modrinth.com/mod/ante) | [tinytransfem](https://modrinth.com/user/tinytransfem) | 1.21.4 | ✅ | 🟠 | Removes the Anvil Level Cap. | *none* |
+| [Anvil Never Too Expensive](https://modrinth.com/mod/ante) | [tinytransfem](https://modrinth.com/user/tinytransfem) | 1.21.4 | ⏺️ | 🟠 | Removes the Anvil Level Cap. | *none* |
 | [Armor Poser](https://modrinth.com/mod/armor-poser) | [Mrbysco](https://modrinth.com/user/Mrbysco) | 1.21.8 | ✅ | 🟢 | Adds a GUI for armor stands in which you can configure it's pose and other properties. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config) |
 | [Betterf3](https://modrinth.com/mod/betterf3) | [TreyRuffy](https://modrinth.com/user/TreyRuffy) | 1.21.8 | ✅ | 🟢 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
 | [Beautified Chat \[Client\]](https://modrinth.com/mod/beautified-chat-client) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.8 | ❌ | 🟡 | A highly configurable mod to change the chat style and colour on the client. | [Collective](https://modrinth.com/mod/collective) |
