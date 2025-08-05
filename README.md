@@ -367,7 +367,13 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 ---
 
-🗒️These shaders are what I commonly and frequently use for gameplay and basis for working on my PBR resource pack.
+🗒️This shader is what I use for gameplay to add waving foilage, liquids, and leaves while preserving the vanilla visuals and high FPS.<br>
+📌[Sildur's Basic Shaders](https://www.curseforge.com/minecraft/shaders/sildurs-basic-shaders).<br>
+📌[Sildur's Shaders](https://sildurs-shaders.github.io)
+
+---
+
+🗒️These shaders are what I commonly and frequently use for cinematics and basis for working on my PBR resource pack.
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
