@@ -267,7 +267,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🎧Auditory Mods 
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.7 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
+| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | [creativemd](https://modrinth.com/user/creativemd) | 1.21.8 | ✅ | 🟢 | Adds a rich ambience to the Minecraft world. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[CreativeCore](https://modrinth.com/mod/creativecore) |
 | [Cool Rain](https://modrinth.com/mod/coolrain) | [Jaiz](https://modrinth.com/user/Jaiz) | 1.21.8 | ✅ | 🟢 | Creates ambient sounds for certain blocks during rain. | *none* |
 | [ExtraSounds Next](https://modrinth.com/mod/extrasoundsforge) | [Arborsm](https://modrinth.com/user/Arborsm) | 1.21.1 | ❌ | 🟠 | Adds more sounds to Minecraft, like sounds when you scroll the hotbar, the creative inventory, pick up or place items in inventories, and more. | *none* |
 | [ImmersiveThunder](https://modrinth.com/mod/immersivethunder) | [netcatgirl](https://modrinth.com/user/netcatgirl) | 1.21.6 | ✅ | 🟢 | A fabric mod that adds realistic and dynamic thunder sounds to Minecraft based on the player’s distance from the lightning strike. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) |
@@ -377,7 +377,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 
 | **Name** | **LabPBR Version** | **Game Version** | **FPS Cost** | **Status** | **Features** |
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- |
-| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | 1.21.7 | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
+| [BSL](https://modrinth.com/shader/bsl-shaders) | 1.3 | 1.21.8 | Low | ✅ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) | 1.3 | 1.21.8 | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 | [Complementary Shaders - Unbound](https://modrinth.com/shader/complementary-unbound) | 1.3 | 1.21.8 | Low | ✅ | <ul><li>[❌] Porosity</li><li>[❌] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> |
 
