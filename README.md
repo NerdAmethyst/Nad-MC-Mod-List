@@ -219,7 +219,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## ⚙Vanilla+ Tweaks
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- |
-| [Boids](https://modrinth.com/mod/boids) | [Tomate0613](https://modrinth.com/user/Tomate0613) | 1.21.7 | ✅ | 🟠 | Boids simulation for flocking fish | [Fabric API](https://modrinth.com/mod/fabric-api) |
+| [Boids](https://modrinth.com/mod/boids) | [Tomate0613](https://modrinth.com/user/Tomate0613) | 1.21.8 | ✅ | 🟠 | Boids simulation for flocking fish | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 1.21.8 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) |
 | [Fabric Seasons](https://modrinth.com/mod/fabric-seasons) | [D4rkness_King](https://modrinth.com/user/D4rkness_King) | 1.21.1 | ❌ | 🟡 | A simple mod that adds seasons to the game, dynamically changing biomes as you play. ***Do not use alongside Serene Seasons.*** | [Fabric API](https://modrinth.com/mod/fabric-api) |
 | [Serene Seasons](https://modrinth.com/mod/serene-seasons) | [Adubbz](https://modrinth.com/user/Adubbz) | 1.21.8 | ✅ | 🟡 | A Minecraft mod that adds seasons. Alternative to **Fabric Seasons**.  | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) |
