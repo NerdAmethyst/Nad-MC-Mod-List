@@ -420,7 +420,7 @@ I also occasionally use resource packs from [🌏Planet Minecraft](https://www.p
 
 | **Name** | **Creator** | **Game Version** | **Description** |
 | :------: | :---------: | :--------------: | :-------------- |
-| [Atmospheric Skies & Fog](https://modrinth.com/resourcepack/atmospheric-skies-fog) | [kvquang](https://modrinth.com/user/kvquang) | :--------------: | Custom skies and biome-based fog inspired by atmospheric designs for a more immersive Minecraft world. |
+| [Atmospheric Skies & Fog](https://modrinth.com/resourcepack/atmospheric-skies-fog) | [kvquang](https://modrinth.com/user/kvquang) | 1.21.5 | Custom skies and biome-based fog inspired by atmospheric designs for a more immersive Minecraft world. |
 | [Dramatic Skies](https://modrinth.com/resourcepack/dramatic-skys) | [thebaum64](https://modrinth.com/user/thebaum64) | 1.21.8 | Dramatic Skys is an add on pack that will make the skies in your game HD with realistic clouds and lighting. This pack works with any other resource pack. |
 | [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.8 | Dynamic animated entities to freshen your Minecraft experience. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
 | [Fresh Animations - Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions) | [FreshLX](https://modrinth.com/user/FreshLX) | 1.21.8 | Extra customisation for Fresh Animations. Requires [\[EMF\] Entity Model Features](https://modrinth.com/mod/entity-model-features) and [\[ETF\] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures). |
