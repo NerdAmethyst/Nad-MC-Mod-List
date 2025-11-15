@@ -1,13 +1,12 @@
 import os
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 import requests
 from packaging.version import parse as parse_version
 
 # --------------------------------------------------
 # Configuration
 # --------------------------------------------------
-
 HEADERS = {
     "User-Agent": "ModListUpdater/1.0 (contact@example.com)",
     "Accept": "application/json"
@@ -21,195 +20,219 @@ CURSEFORGE_PROJECT_IDS = {
 
 MODRINTH_PROJECT_CACHE = {}
 
-VERSION_REGEX = re.compile(r"^\d+(\.\d+)*$")  # strict numeric versions only
-
+VERSION_REGEX = re.compile(r"^\d+(\.\d+)*")
 MODRINTH_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://modrinth\.com/'
     r'(mod|datapack|resourcepack|shader|plugin)/'
     r'([a-z0-9_\-]+)\)'
 )
-
 CURSEFORGE_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9_\-]+)\)'
 )
 
-ONE_YEAR_AGO = datetime.now(timezone.utc) - timedelta(days=365)
+ONE_YEAR_AGO = datetime.now() - timedelta(days=365)
 
 
 # --------------------------------------------------
-# Normalize headers
-# --------------------------------------------------
-def clean_header(name: str):
-    return name.replace("*", "").strip().lower()
-
-
-# --------------------------------------------------
-# Fetch Modrinth Version
+# Fetch Modrinth latest version + date
 # --------------------------------------------------
 def fetch_latest_modrinth(slug: str):
     try:
+        # Get project info (cached)
         if slug not in MODRINTH_PROJECT_CACHE:
-            meta = requests.get(f"https://api.modrinth.com/v2/project/{slug}", headers=HEADERS)
-            meta.raise_for_status()
-            MODRINTH_PROJECT_CACHE[slug] = meta.json()
+            url = f"https://api.modrinth.com/v2/project/{slug}"
+            r = requests.get(url, headers=HEADERS)
+            r.raise_for_status()
+            MODRINTH_PROJECT_CACHE[slug] = r.json()
 
         project = MODRINTH_PROJECT_CACHE[slug]
         project_type = project.get("project_type")
 
-        ver = requests.get(f"https://api.modrinth.com/v2/project/{slug}/version", headers=HEADERS)
-        ver.raise_for_status()
-        versions = ver.json()
+        # Get all versions
+        url = f"https://api.modrinth.com/v2/project/{slug}/version"
+        r = requests.get(url, headers=HEADERS)
+        r.raise_for_status()
+        versions = r.json()
 
+        # (game_version, date_published)
         supported = []
 
         for v in versions:
             loaders = [l.lower() for l in (v.get("loaders") or [])]
+
+            # Loader logic
             if project_type in ("mod", "plugin"):
                 if "fabric" not in loaders and "quilt" not in loaders:
+                    continue
+            elif project_type == "datapack":
+                if loaders and ("fabric" not in loaders and "quilt" not in loaders):
                     continue
 
             for gv in v.get("game_versions", []):
                 if VERSION_REGEX.match(gv):
-                    supported.append((gv, v["date_published"]))
+                    supported.append((
+                        gv,
+                        v["date_published"]  # ISO date
+                    ))
 
         if not supported:
             return "N/A", None
 
-        supported.sort(key=lambda t: (parse_version(t[0]), t[1]), reverse=True)
-        return supported[0]
+        # Pick highest game version
+        supported.sort(key=lambda t: parse_version(t[0]), reverse=True)
+        latest_version, iso_date = supported[0]
+
+        return latest_version, iso_date
 
     except Exception as e:
-        print(f"✗ Modrinth '{slug}' error: {e}")
+        print(f"\033[91m✗ Modrinth '{slug}' error: {e}\033[0m")
         return "Error", None
 
 
 # --------------------------------------------------
-# Fetch CurseForge Version
+# Fetch CurseForge latest version + date
 # --------------------------------------------------
 def fetch_latest_curseforge(project_id: int):
     try:
         url = f"https://api.curseforge.com/v1/mods/{project_id}/files"
-        r = requests.get(url, headers={
+        headers = {
             "x-api-key": CURSEFORGE_API_KEY,
-            "Accept": "application/json"
-        })
+            "Accept": "application/json",
+            "User-Agent": "ModListUpdater/1.0"
+        }
+        r = requests.get(url, headers=headers)
         r.raise_for_status()
-
         files = r.json().get("data", [])
+
         supported = []
 
         for f in files:
             for gv in f.get("gameVersions", []):
                 if VERSION_REGEX.match(gv):
-                    supported.append((gv, f["fileDate"]))
+                    supported.append((
+                        gv,
+                        f["fileDate"]  # ISO date
+                    ))
 
         if not supported:
             return "N/A", None
 
-        supported.sort(key=lambda t: (parse_version(t[0]), t[1]), reverse=True)
-        return supported[0]
+        supported.sort(key=lambda t: parse_version(t[0]), reverse=True)
+        latest_version, iso_date = supported[0]
+
+        return latest_version, iso_date
 
     except Exception as e:
-        print(f"✗ CurseForge {project_id} error: {e}")
+        print(f"\033[91m✗ CurseForge {project_id} error: {e}\033[0m")
         return "Error", None
 
 
 # --------------------------------------------------
-# Safe Row Update (prevents IndexError)
-# --------------------------------------------------
-def safe_set(parts, index, value):
-    """Safely update column only if the index exists."""
-    if index is not None and index < len(parts):
-        parts[index] = value
-
-
-# --------------------------------------------------
-# Update Table Row
-# --------------------------------------------------
-def update_table_row(parts, game_col, last_updated_col, outdated_col, latest, iso_date):
-    safe_set(parts, game_col, latest)
-
-    if iso_date:
-        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00")).astimezone(timezone.utc)
-
-        if last_updated_col is not None:
-            safe_set(parts, last_updated_col, dt.date().isoformat())
-
-        if outdated_col is not None:
-            safe_set(parts, outdated_col, "⚠️" if dt < ONE_YEAR_AGO else "")
-
-    return "| " + " | ".join(parts) + " |\n"
-
-
-# --------------------------------------------------
-# Main README Update Logic
+# Main README update logic
 # --------------------------------------------------
 def update_readme():
     with open("README.md", "r", encoding="utf-8") as f:
-        old = f.read()
+        old_content = f.read()
 
-    lines = old.splitlines(True)
-    updated = []
+    lines = old_content.splitlines(True)
+    updated_lines = []
 
     game_col = None
     last_updated_col = None
     outdated_col = None
 
     for line in lines:
-        stripped = line.strip()
+        raw = line.strip()
 
-        # Detect Header Row
-        if stripped.startswith("|") and "game" in stripped.lower():
-            raw_cols = [c.strip() for c in stripped.strip("|").split("|")]
-            cleaned = [clean_header(c) for c in raw_cols]
+        # Detect header columns
+        cols_raw = raw.strip("|").split("|")
+        cols = [c.strip().lower().replace("*", "") for c in cols_raw]
 
-            # Required
-            game_col = cleaned.index("game version")
+        if "**game version**".lower().replace("*", "") in [c.lower().replace("*", "") for c in cols_raw]:
+            game_col = cols.index("game version")
+            last_updated_col = cols.index("last updated")
+            outdated_col = cols.index("outdated")
 
-            # Optional columns
-            last_updated_col = cleaned.index("last updated") if "last updated" in cleaned else None
-            outdated_col = cleaned.index("outdated") if "outdated" in cleaned else None
-
-            updated.append(line)
+            updated_lines.append(line)
+            print("\033[92m✓ Table header detected\033[0m")
             continue
 
-        # If header not yet detected, copy line
         if game_col is None:
-            updated.append(line)
+            updated_lines.append(line)
             continue
 
-        # Process row
-        parts = [p.strip() for p in stripped.strip("|").split("|")]
+        # Parse row
+        parts = [p.strip() for p in raw.strip("|").split("|")]
 
-        # Modrinth link
+        # --- Modrinth ---
         m = MODRINTH_LINK_REGEX.search(line)
         if m:
             slug = m.group(2)
             latest, iso_date = fetch_latest_modrinth(slug)
-            updated.append(update_table_row(parts, game_col, last_updated_col, outdated_col, latest, iso_date))
-            continue
+            return write_updated_row(slug, latest, iso_date, parts,
+                                     updated_lines, game_col, last_updated_col, outdated_col, source="Modrinth")
 
-        # CurseForge link
+        # --- CurseForge ---
         m = CURSEFORGE_LINK_REGEX.search(line)
         if m:
             slug = m.group(1)
-            pid = CURSEFORGE_PROJECT_IDS.get(slug)
-            if pid:
-                latest, iso_date = fetch_latest_curseforge(pid)
-                updated.append(update_table_row(parts, game_col, last_updated_col, outdated_col, latest, iso_date))
+            project_id = CURSEFORGE_PROJECT_IDS.get(slug)
+
+            if not project_id:
+                print(f"\033[93m⚠️ No CurseForge ID for '{slug}'\033[0m")
+                updated_lines.append(line)
                 continue
 
-        updated.append(line)
+            latest, iso_date = fetch_latest_curseforge(project_id)
+            return write_updated_row(slug, latest, iso_date, parts,
+                                     updated_lines, game_col, last_updated_col, outdated_col, source="CurseForge")
 
-    new = "".join(updated)
+        # Unchanged
+        updated_lines.append(line)
 
-    if new != old:
+    # Write only if changed
+    new = "".join(updated_lines)
+    if new != old_content:
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new)
-        print("✅ README.md updated.")
+        print("\033[92m✅ README.md updated.\033[0m")
     else:
-        print("ℹ️ No changes.")
+        print("\033[93mℹ️ No changes to write.\033[0m")
 
 
+# --------------------------------------------------
+# Helper: write updated table row
+# --------------------------------------------------
+def write_updated_row(slug, latest, iso_date, parts,
+                      updated_lines, game_col, last_updated_col, outdated_col, source=""):
+
+    if iso_date:
+        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
+        last_updated = dt.date().isoformat()
+        outdated = "⚠️" if dt < ONE_YEAR_AGO else ""
+    else:
+        last_updated = ""
+        outdated = ""
+
+    # Store old for log
+    old = parts[game_col]
+
+    # Update row
+    parts[game_col] = latest
+    parts[last_updated_col] = last_updated
+    parts[outdated_col] = outdated
+
+    updated_line = "| " + " | ".join(parts) + " |\n"
+    updated_lines.append(updated_line)
+
+    if old != latest:
+        print(f"\033[92m✓ Updated {source} '{slug}': {old} → {latest}\033[0m")
+    else:
+        print(f"\033[93mℹ️ {source} '{slug}' already at {latest}\033[0m")
+
+    return
+
+
+# --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
