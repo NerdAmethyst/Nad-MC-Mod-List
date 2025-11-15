@@ -21,7 +21,7 @@ CURSEFORGE_PROJECT_IDS = {
 
 MODRINTH_PROJECT_CACHE = {}
 
-VERSION_REGEX = re.compile(r"^\d+(\.\d+)*")
+VERSION_REGEX = re.compile(r"^\d+(\.\d+)*$")  # strict numeric game versions only
 
 MODRINTH_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://modrinth\.com/'
@@ -44,7 +44,7 @@ def clean_header(name: str):
 
 
 # --------------------------------------------------
-# Modrinth Fetch
+# Fetch Modrinth Version
 # --------------------------------------------------
 def fetch_latest_modrinth(slug: str):
     try:
@@ -65,45 +65,4 @@ def fetch_latest_modrinth(slug: str):
         supported = []
 
         for v in versions:
-            loaders = [l.lower() for l in (v.get("loaders") or [])]
-
-            # Loader filtering
-            if project_type in ("mod", "plugin"):
-                if "fabric" not in loaders and "quilt" not in loaders:
-                    continue
-
-            for gv in v.get("game_versions", []):
-                if VERSION_REGEX.match(gv):
-                    supported.append((gv, v["date_published"]))
-
-        if not supported:
-            return "N/A", None
-
-        supported.sort(key=lambda t: (parse_version(t[0]), t[1]), reverse=True)
-        latest_version, iso_date = supported[0]
-
-        return latest_version, iso_date
-
-    except Exception as e:
-        print(f"\033[91m✗ Modrinth '{slug}' error: {e}\033[0m")
-        return "Error", None
-
-
-# --------------------------------------------------
-# CurseForge Fetch
-# --------------------------------------------------
-def fetch_latest_curseforge(project_id: int):
-    try:
-        url = f"https://api.curseforge.com/v1/mods/{project_id}/files"
-        r = requests.get(url, headers={
-            "x-api-key": CURSEFORGE_API_KEY,
-            "Accept": "application/json"
-        })
-        r.raise_for_status()
-
-        files = r.json().get("data", [])
-        supported = []
-
-        for f in files:
-            for gv in f.get("gameVersions", []):
-                if VERSION_REGEX.match(_
+            loaders =
