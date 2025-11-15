@@ -21,7 +21,7 @@ CURSEFORGE_PROJECT_IDS = {
 
 MODRINTH_PROJECT_CACHE = {}
 
-VERSION_REGEX = re.compile(r"^\d+(\.\d+)*$")  # strict numeric game versions only
+VERSION_REGEX = re.compile(r"^\d+(\.\d+)*$")  # strict numeric versions only
 
 MODRINTH_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://modrinth\.com/'
@@ -37,7 +37,7 @@ ONE_YEAR_AGO = datetime.now(timezone.utc) - timedelta(days=365)
 
 
 # --------------------------------------------------
-# Normalize headers for detection
+# Normalize headers
 # --------------------------------------------------
 def clean_header(name: str):
     return name.replace("*", "").strip().lower()
@@ -49,30 +49,26 @@ def clean_header(name: str):
 def fetch_latest_modrinth(slug: str):
     try:
         if slug not in MODRINTH_PROJECT_CACHE:
-            url = f"https://api.modrinth.com/v2/project/{slug}"
-            r = requests.get(url, headers=HEADERS)
-            r.raise_for_status()
-            MODRINTH_PROJECT_CACHE[slug] = r.json()
+            meta = requests.get(f"https://api.modrinth.com/v2/project/{slug}", headers=HEADERS)
+            meta.raise_for_status()
+            MODRINTH_PROJECT_CACHE[slug] = meta.json()
 
         project = MODRINTH_PROJECT_CACHE[slug]
         project_type = project.get("project_type")
 
-        url = f"https://api.modrinth.com/v2/project/{slug}/version"
-        r = requests.get(url, headers=HEADERS)
-        r.raise_for_status()
-        versions = r.json()
+        ver = requests.get(f"https://api.modrinth.com/v2/project/{slug}/version", headers=HEADERS)
+        ver.raise_for_status()
+        versions = ver.json()
 
         supported = []
 
         for v in versions:
             loaders = [l.lower() for l in (v.get("loaders") or [])]
-
             if project_type in ("mod", "plugin"):
                 if "fabric" not in loaders and "quilt" not in loaders:
                     continue
 
             for gv in v.get("game_versions", []):
-                # Ignore snapshots: only numeric versions
                 if VERSION_REGEX.match(gv):
                     supported.append((gv, v["date_published"]))
 
@@ -83,7 +79,7 @@ def fetch_latest_modrinth(slug: str):
         return supported[0]
 
     except Exception as e:
-        print(f"\033[91m✗ Modrinth '{slug}' error: {e}\033[0m")
+        print(f"✗ Modrinth '{slug}' error: {e}")
         return "Error", None
 
 
@@ -114,24 +110,33 @@ def fetch_latest_curseforge(project_id: int):
         return supported[0]
 
     except Exception as e:
-        print(f"\033[91m✗ CurseForge {project_id} error: {e}\033[0m")
+        print(f"✗ CurseForge {project_id} error: {e}")
         return "Error", None
 
 
 # --------------------------------------------------
-# Update a Table Row
+# Safe Row Update (prevents IndexError)
+# --------------------------------------------------
+def safe_set(parts, index, value):
+    """Safely update column only if the index exists."""
+    if index is not None and index < len(parts):
+        parts[index] = value
+
+
+# --------------------------------------------------
+# Update Table Row
 # --------------------------------------------------
 def update_table_row(parts, game_col, last_updated_col, outdated_col, latest, iso_date):
-    parts[game_col] = latest
+    safe_set(parts, game_col, latest)
 
     if iso_date:
         dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00")).astimezone(timezone.utc)
 
         if last_updated_col is not None:
-            parts[last_updated_col] = dt.date().isoformat()
+            safe_set(parts, last_updated_col, dt.date().isoformat())
 
         if outdated_col is not None:
-            parts[outdated_col] = "⚠️" if dt < ONE_YEAR_AGO else ""
+            safe_set(parts, outdated_col, "⚠️" if dt < ONE_YEAR_AGO else "")
 
     return "| " + " | ".join(parts) + " |\n"
 
@@ -158,21 +163,25 @@ def update_readme():
             raw_cols = [c.strip() for c in stripped.strip("|").split("|")]
             cleaned = [clean_header(c) for c in raw_cols]
 
-            # Column indices
+            # Required
             game_col = cleaned.index("game version")
+
+            # Optional columns
             last_updated_col = cleaned.index("last updated") if "last updated" in cleaned else None
             outdated_col = cleaned.index("outdated") if "outdated" in cleaned else None
 
             updated.append(line)
             continue
 
+        # If header not yet detected, copy line
         if game_col is None:
             updated.append(line)
             continue
 
+        # Process row
         parts = [p.strip() for p in stripped.strip("|").split("|")]
 
-        # Modrinth
+        # Modrinth link
         m = MODRINTH_LINK_REGEX.search(line)
         if m:
             slug = m.group(2)
@@ -180,7 +189,7 @@ def update_readme():
             updated.append(update_table_row(parts, game_col, last_updated_col, outdated_col, latest, iso_date))
             continue
 
-        # CurseForge
+        # CurseForge link
         m = CURSEFORGE_LINK_REGEX.search(line)
         if m:
             slug = m.group(1)
@@ -193,6 +202,7 @@ def update_readme():
         updated.append(line)
 
     new = "".join(updated)
+
     if new != old:
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new)
