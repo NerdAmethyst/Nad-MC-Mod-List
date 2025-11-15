@@ -1,238 +1,187 @@
 import os
 import re
-from datetime import datetime, timedelta
 import requests
 from packaging.version import parse as parse_version
 
-# --------------------------------------------------
-# Configuration
-# --------------------------------------------------
-HEADERS = {
-    "User-Agent": "ModListUpdater/1.0 (contact@example.com)",
-    "Accept": "application/json"
-}
-
+# --- Settings ---
+headers = {"User-Agent": "ModListUpdater/1.0 (contact@example.com)"}
 CURSEFORGE_API_KEY = os.environ.get("CURSEFORGE_API_KEY")
 
-CURSEFORGE_PROJECT_IDS = {
+# Add CurseForge project IDs here
+curseforge_project_ids = {
     "inventory-hud-forge": 357540
 }
 
-MODRINTH_PROJECT_CACHE = {}
+# Cache for Modrinth project info to avoid multiple API calls
+modrinth_project_info_cache = {}
 
-VERSION_REGEX = re.compile(r"^\d+(\.\d+)*")
-MODRINTH_LINK_REGEX = re.compile(
-    r'\[.*?\]\(https://modrinth\.com/'
-    r'(mod|datapack|resourcepack|shader|plugin)/'
-    r'([a-z0-9_\-]+)\)'
-)
-CURSEFORGE_LINK_REGEX = re.compile(
-    r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9_\-]+)\)'
-)
+# --- Functions ---
 
-ONE_YEAR_AGO = datetime.now() - timedelta(days=365)
-
-
-# --------------------------------------------------
-# Fetch Modrinth latest version + date
-# --------------------------------------------------
-def fetch_latest_modrinth(slug: str):
+def fetch_latest_modrinth_version(slug):
+    """
+    Fetch highest supported Minecraft version:
+    - mods/plugins: must support Fabric
+    - shaders/resourcepacks: use all versions, skip loader check
+    - datapacks: if loaders exist, require Fabric; if no loaders, skip check
+    """
     try:
-        # Get project info (cached)
-        if slug not in MODRINTH_PROJECT_CACHE:
-            url = f"https://api.modrinth.com/v2/project/{slug}"
-            r = requests.get(url, headers=HEADERS)
-            r.raise_for_status()
-            MODRINTH_PROJECT_CACHE[slug] = r.json()
+        # 1) Fetch project info (cached)
+        if slug in modrinth_project_info_cache:
+            project = modrinth_project_info_cache[slug]
+        else:
+            info_url = f"https://api.modrinth.com/v2/project/{slug}"
+            info_resp = requests.get(info_url, headers=headers)
+            info_resp.raise_for_status()
+            project = info_resp.json()
+            modrinth_project_info_cache[slug] = project
 
-        project = MODRINTH_PROJECT_CACHE[slug]
         project_type = project.get("project_type")
 
-        # Get all versions
-        url = f"https://api.modrinth.com/v2/project/{slug}/version"
-        r = requests.get(url, headers=HEADERS)
-        r.raise_for_status()
-        versions = r.json()
+        # 2) Fetch all versions
+        versions_url = f"https://api.modrinth.com/v2/project/{slug}/version"
+        resp = requests.get(versions_url, headers=headers)
+        resp.raise_for_status()
+        versions = resp.json()
 
-        # (game_version, date_published)
-        supported = []
-
+        all_versions = set()
         for v in versions:
-            loaders = [l.lower() for l in (v.get("loaders") or [])]
+            loaders = v.get("loaders", []) or []
 
-            # Loader logic
             if project_type in ("mod", "plugin"):
-                if "fabric" not in loaders and "quilt" not in loaders:
-                    continue
+                if "fabric" not in loaders:
+                    continue  # require Fabric
+
             elif project_type == "datapack":
-                if loaders and ("fabric" not in loaders and "quilt" not in loaders):
-                    continue
+                if loaders and "fabric" not in loaders:
+                    continue  # if loaders exist, require Fabric
+
+            # shaders/resourcepacks: skip loader check
 
             for gv in v.get("game_versions", []):
-                if VERSION_REGEX.match(gv):
-                    supported.append((
-                        gv,
-                        v["date_published"]  # ISO date
-                    ))
+                if re.match(r"^\d+(\.\d+){1,2}$", gv):
+                    all_versions.add(gv.strip())
 
-        if not supported:
-            return "N/A", None
-
-        # Pick highest game version
-        supported.sort(key=lambda t: parse_version(t[0]), reverse=True)
-        latest_version, iso_date = supported[0]
-
-        return latest_version, iso_date
+        if all_versions:
+            return sorted(all_versions, key=parse_version, reverse=True)[0]
+        return "N/A"
 
     except Exception as e:
-        print(f"\033[91m✗ Modrinth '{slug}' error: {e}\033[0m")
-        return "Error", None
+        print(f"\033[91m✗ Error fetching Modrinth project '{slug}': {e}\033[0m")
+        return "Error"
 
-
-# --------------------------------------------------
-# Fetch CurseForge latest version + date
-# --------------------------------------------------
-def fetch_latest_curseforge(project_id: int):
+def fetch_latest_curseforge_version(project_id):
+    """
+    Fetch highest supported Minecraft version from CurseForge files.
+    """
     try:
         url = f"https://api.curseforge.com/v1/mods/{project_id}/files"
-        headers = {
-            "x-api-key": CURSEFORGE_API_KEY,
-            "Accept": "application/json",
-            "User-Agent": "ModListUpdater/1.0"
-        }
-        r = requests.get(url, headers=headers)
-        r.raise_for_status()
-        files = r.json().get("data", [])
+        response = requests.get(url, headers={"x-api-key": CURSEFORGE_API_KEY})
+        response.raise_for_status()
+        files = response.json().get("data", [])
 
-        supported = []
+        all_versions = set()
+        for file in files:
+            for gv in file.get("gameVersions", []):
+                if re.match(r"^\d+(\.\d+){1,2}$", gv):
+                    all_versions.add(gv.strip())
 
-        for f in files:
-            for gv in f.get("gameVersions", []):
-                if VERSION_REGEX.match(gv):
-                    supported.append((
-                        gv,
-                        f["fileDate"]  # ISO date
-                    ))
-
-        if not supported:
-            return "N/A", None
-
-        supported.sort(key=lambda t: parse_version(t[0]), reverse=True)
-        latest_version, iso_date = supported[0]
-
-        return latest_version, iso_date
+        if all_versions:
+            return sorted(all_versions, key=parse_version, reverse=True)[0]
+        return "N/A"
 
     except Exception as e:
-        print(f"\033[91m✗ CurseForge {project_id} error: {e}\033[0m")
-        return "Error", None
+        print(f"\033[91m✗ Error fetching CurseForge project ID {project_id}: {e}\033[0m")
+        return "Error"
 
+# --- Main processing ---
 
-# --------------------------------------------------
-# Main README update logic
-# --------------------------------------------------
-def update_readme():
-    with open("README.md", "r", encoding="utf-8") as f:
-        old_content = f.read()
+with open("README.md", "r", encoding="utf-8") as f:
+    lines = f.readlines()
 
-    lines = old_content.splitlines(True)
-    updated_lines = []
+updated_lines = []
+game_version_col_index = None  # detect dynamically for each table
 
-    game_col = None
-    last_updated_col = None
-    outdated_col = None
+for line in lines:
+    # Detect header row (works even with bold columns like **Game Version**)
+    columns = [col.strip().lower().replace('*', '') for col in line.strip().split('|')]
+    if 'game version' in columns:
+        game_version_col_index = columns.index('game version')
+        print(f"\033[92m✓ Detected 'Game Version' column at index {game_version_col_index}\033[0m")
+        updated_lines.append(line)
+        continue
 
-    for line in lines:
-        raw = line.strip()
-
-        # Detect header columns
-        cols_raw = raw.strip("|").split("|")
-        cols = [c.strip().lower().replace("*", "") for c in cols_raw]
-
-        if "**game version**".lower().replace("*", "") in [c.lower().replace("*", "") for c in cols_raw]:
-            game_col = cols.index("game version")
-            last_updated_col = cols.index("last updated")
-            outdated_col = cols.index("outdated")
-
-            updated_lines.append(line)
-            print("\033[92m✓ Table header detected\033[0m")
-            continue
-
-        if game_col is None:
-            updated_lines.append(line)
-            continue
-
-        # Parse row
-        parts = [p.strip() for p in raw.strip("|").split("|")]
-
-        # --- Modrinth ---
-        m = MODRINTH_LINK_REGEX.search(line)
-        if m:
-            slug = m.group(2)
-            latest, iso_date = fetch_latest_modrinth(slug)
-            return write_updated_row(slug, latest, iso_date, parts,
-                                     updated_lines, game_col, last_updated_col, outdated_col, source="Modrinth")
-
-        # --- CurseForge ---
-        m = CURSEFORGE_LINK_REGEX.search(line)
-        if m:
-            slug = m.group(1)
-            project_id = CURSEFORGE_PROJECT_IDS.get(slug)
-
-            if not project_id:
-                print(f"\033[93m⚠️ No CurseForge ID for '{slug}'\033[0m")
+    # --- Update Modrinth projects ---
+    if (
+        "https://modrinth.com/mod/" in line
+        or "https://modrinth.com/datapack/" in line
+        or "https://modrinth.com/resourcepack/" in line
+        or "https://modrinth.com/shader/" in line
+        or "https://modrinth.com/plugin/" in line
+    ) and game_version_col_index is not None:
+        match = re.search(
+            r'\[.*?\]\(https://modrinth\.com/(mod|datapack|resourcepack|shader|plugin)/([a-z0-9\-]+)\)',
+            line
+        )
+        if match:
+            slug = match.group(2)
+            latest_version = fetch_latest_modrinth_version(slug)
+            parts = line.strip().split('|')
+            if len(parts) > game_version_col_index:
+                old_version = parts[game_version_col_index].strip()
+                parts[game_version_col_index] = f" {latest_version} "
+                updated_line = '|'.join(parts) + '\n'
+                updated_lines.append(updated_line)
+                if old_version != latest_version:
+                    print(f"\033[92m✓ Updated Modrinth project '{slug}' from '{old_version}' to '{latest_version}'\033[0m")
+                else:
+                    print(f"\033[93mℹ️ Modrinth project '{slug}' already up-to-date ({latest_version})\033[0m")
+            else:
+                print(f"\033[93m⚠️ Row too short for '{slug}', skipped\033[0m")
                 updated_lines.append(line)
-                continue
+        else:
+            updated_lines.append(line)
 
-            latest, iso_date = fetch_latest_curseforge(project_id)
-            return write_updated_row(slug, latest, iso_date, parts,
-                                     updated_lines, game_col, last_updated_col, outdated_col, source="CurseForge")
+    # --- Update CurseForge mods ---
+    elif "https://www.curseforge.com/minecraft/mc-mods/" in line and game_version_col_index is not None:
+        match = re.search(r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9\-]+)\)', line)
+        if match:
+            slug = match.group(1)
+            project_id = curseforge_project_ids.get(slug)
+            if project_id:
+                latest_version = fetch_latest_curseforge_version(project_id)
+            else:
+                print(f"\033[93m⚠️ No project ID found for CurseForge mod '{slug}'\033[0m")
+                latest_version = "N/A"
+            parts = line.strip().split('|')
+            if len(parts) > game_version_col_index:
+                old_version = parts[game_version_col_index].strip()
+                parts[game_version_col_index] = f" {latest_version} "
+                updated_line = '|'.join(parts) + '\n'
+                updated_lines.append(updated_line)
+                if old_version != latest_version:
+                    print(f"\033[92m✓ Updated CurseForge mod '{slug}' from '{old_version}' to '{latest_version}'\033[0m")
+                else:
+                    print(f"\033[93mℹ️ CurseForge mod '{slug}' already up-to-date ({latest_version})\033[0m")
+            else:
+                print(f"\033[93m⚠️ Row too short for mod '{slug}', skipped\033[0m")
+                updated_lines.append(line)
+        else:
+            updated_lines.append(line)
 
-        # Unchanged
+    else:
+        # Keep non-matching lines unchanged
         updated_lines.append(line)
 
-    # Write only if changed
-    new = "".join(updated_lines)
-    if new != old_content:
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new)
-        print("\033[92m✅ README.md updated.\033[0m")
-    else:
-        print("\033[93mℹ️ No changes to write.\033[0m")
+# --- Compare and write only if content changed ---
+new_content = ''.join(updated_lines)
 
+with open("README.md", 'r', encoding='utf-8') as f:
+    old_content = f.read()
 
-# --------------------------------------------------
-# Helper: write updated table row
-# --------------------------------------------------
-def write_updated_row(slug, latest, iso_date, parts,
-                      updated_lines, game_col, last_updated_col, outdated_col, source=""):
+if new_content != old_content:
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print("\033[92m✅ README.md updated with new versions.\033[0m")
+else:
+    print("\033[93mℹ️ README.md already up-to-date; no changes made.\033[0m")
 
-    if iso_date:
-        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
-        last_updated = dt.date().isoformat()
-        outdated = "⚠️" if dt < ONE_YEAR_AGO else ""
-    else:
-        last_updated = ""
-        outdated = ""
-
-    # Store old for log
-    old = parts[game_col]
-
-    # Update row
-    parts[game_col] = latest
-    parts[last_updated_col] = last_updated
-    parts[outdated_col] = outdated
-
-    updated_line = "| " + " | ".join(parts) + " |\n"
-    updated_lines.append(updated_line)
-
-    if old != latest:
-        print(f"\033[92m✓ Updated {source} '{slug}': {old} → {latest}\033[0m")
-    else:
-        print(f"\033[93mℹ️ {source} '{slug}' already at {latest}\033[0m")
-
-    return
-
-
-# --------------------------------------------------
-if __name__ == "__main__":
-    update_readme()
