@@ -147,7 +147,7 @@ def update_readme():
         # Detect header columns
         clean_cols = [c.strip().lower().replace("*", "") for c in cols_raw]
 
-       if "game version" in clean_cols:
+        if "game version" in clean_cols:
             game_col = clean_cols.index("game version")
             last_updated_col = clean_cols.index("last updated")
             outdated_col = clean_cols.index("outdated")
@@ -237,4 +237,5 @@ def write_updated_row(slug, latest, iso_date, parts,
 # --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
+
 
