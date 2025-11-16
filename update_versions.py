@@ -145,13 +145,12 @@ def update_readme():
         raw = line.strip()
 
         # Detect header columns
-        cols_raw = raw.strip("|").split("|")
-        cols = [c.strip().lower().replace("*", "") for c in cols_raw]
+        clean_cols = [c.strip().lower().replace("*", "") for c in cols_raw]
 
-        if "**game version**".lower().replace("*", "") in [c.lower().replace("*", "") for c in cols_raw]:
-            game_col = cols.index("game version")
-            last_updated_col = cols.index("last updated")
-            outdated_col = cols.index("outdated")
+       if "game version" in clean_cols:
+            game_col = clean_cols.index("game version")
+            last_updated_col = clean_cols.index("last updated")
+            outdated_col = clean_cols.index("outdated")
 
             updated_lines.append(line)
             print("\033[92m✓ Table header detected\033[0m")
@@ -169,8 +168,9 @@ def update_readme():
         if m:
             slug = m.group(2)
             latest, iso_date = fetch_latest_modrinth(slug)
-            return write_updated_row(slug, latest, iso_date, parts,
+            write_updated_row(slug, latest, iso_date, parts,
                                      updated_lines, game_col, last_updated_col, outdated_col, source="Modrinth")
+            continue
 
         # --- CurseForge ---
         m = CURSEFORGE_LINK_REGEX.search(line)
@@ -184,8 +184,9 @@ def update_readme():
                 continue
 
             latest, iso_date = fetch_latest_curseforge(project_id)
-            return write_updated_row(slug, latest, iso_date, parts,
+            write_updated_row(slug, latest, iso_date, parts,
                                      updated_lines, game_col, last_updated_col, outdated_col, source="CurseForge")
+            continue
 
         # Unchanged
         updated_lines.append(line)
@@ -236,3 +237,4 @@ def write_updated_row(slug, latest, iso_date, parts,
 # --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
+
