@@ -54,7 +54,6 @@ def fetch_latest_modrinth(slug: str):
         r.raise_for_status()
         versions = r.json()
 
-        # (game_version, date_published)
         supported = []
 
         for v in versions:
@@ -70,15 +69,11 @@ def fetch_latest_modrinth(slug: str):
 
             for gv in v.get("game_versions", []):
                 if VERSION_REGEX.match(gv):
-                    supported.append((
-                        gv,
-                        v["date_published"]  # ISO date
-                    ))
+                    supported.append((gv, v["date_published"]))
 
         if not supported:
             return "N/A", None
 
-        # Pick highest game version
         supported.sort(key=lambda t: parse_version(t[0]), reverse=True)
         latest_version, iso_date = supported[0]
 
@@ -109,10 +104,7 @@ def fetch_latest_curseforge(project_id: int):
         for f in files:
             for gv in f.get("gameVersions", []):
                 if VERSION_REGEX.match(gv):
-                    supported.append((
-                        gv,
-                        f["fileDate"]  # ISO date
-                    ))
+                    supported.append((gv, f["fileDate"]))
 
         if not supported:
             return "N/A", None
@@ -144,10 +136,11 @@ def update_readme():
     for line in lines:
         raw = line.strip()
 
-        # Detect header columns
-        clean_cols = [c.strip().lower().replace("*", "") for c in cols_raw]
+        # Detect header row
+        if raw.startswith("|") and "game version" in raw.lower():
+            cols_raw = raw.strip("|").split("|")
+            clean_cols = [c.strip().lower().replace("*", "") for c in cols_raw]
 
-        if "game version" in clean_cols:
             game_col = clean_cols.index("game version")
             last_updated_col = clean_cols.index("last updated")
             outdated_col = clean_cols.index("outdated")
@@ -156,6 +149,7 @@ def update_readme():
             print("\033[92m✓ Table header detected\033[0m")
             continue
 
+        # Skip until header found
         if game_col is None:
             updated_lines.append(line)
             continue
@@ -166,76 +160,4 @@ def update_readme():
         # --- Modrinth ---
         m = MODRINTH_LINK_REGEX.search(line)
         if m:
-            slug = m.group(2)
-            latest, iso_date = fetch_latest_modrinth(slug)
-            write_updated_row(slug, latest, iso_date, parts,
-                                     updated_lines, game_col, last_updated_col, outdated_col, source="Modrinth")
-            continue
-
-        # --- CurseForge ---
-        m = CURSEFORGE_LINK_REGEX.search(line)
-        if m:
-            slug = m.group(1)
-            project_id = CURSEFORGE_PROJECT_IDS.get(slug)
-
-            if not project_id:
-                print(f"\033[93m⚠️ No CurseForge ID for '{slug}'\033[0m")
-                updated_lines.append(line)
-                continue
-
-            latest, iso_date = fetch_latest_curseforge(project_id)
-            write_updated_row(slug, latest, iso_date, parts,
-                                     updated_lines, game_col, last_updated_col, outdated_col, source="CurseForge")
-            continue
-
-        # Unchanged
-        updated_lines.append(line)
-
-    # Write only if changed
-    new = "".join(updated_lines)
-    if new != old_content:
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new)
-        print("\033[92m✅ README.md updated.\033[0m")
-    else:
-        print("\033[93mℹ️ No changes to write.\033[0m")
-
-
-# --------------------------------------------------
-# Helper: write updated table row
-# --------------------------------------------------
-def write_updated_row(slug, latest, iso_date, parts,
-                      updated_lines, game_col, last_updated_col, outdated_col, source=""):
-
-    if iso_date:
-        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
-        last_updated = dt.date().isoformat()
-        outdated = "⚠️" if dt < ONE_YEAR_AGO else ""
-    else:
-        last_updated = ""
-        outdated = ""
-
-    # Store old for log
-    old = parts[game_col]
-
-    # Update row
-    parts[game_col] = latest
-    parts[last_updated_col] = last_updated
-    parts[outdated_col] = outdated
-
-    updated_line = "| " + " | ".join(parts) + " |\n"
-    updated_lines.append(updated_line)
-
-    if old != latest:
-        print(f"\033[92m✓ Updated {source} '{slug}': {old} → {latest}\033[0m")
-    else:
-        print(f"\033[93mℹ️ {source} '{slug}' already at {latest}\033[0m")
-
-    return
-
-
-# --------------------------------------------------
-if __name__ == "__main__":
-    update_readme()
-
-
+            slug =
