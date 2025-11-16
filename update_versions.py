@@ -30,6 +30,7 @@ CURSEFORGE_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9_\-]+)\)'
 )
 
+from datetime import timezone
 ONE_YEAR_AGO = datetime.now(timezone.utc) - timedelta(days=365)
 
 
@@ -232,4 +233,5 @@ def write_updated_row(slug, latest, iso_date, parts,
 # --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
+
 
