@@ -20,7 +20,7 @@ CURSEFORGE_PROJECT_IDS = {
 
 MODRINTH_PROJECT_CACHE = {}
 
-VERSION_REGEX = re.compile(r"^\d+(\.\d+)*")
+VERSION_REGEX = re.compile(r"^\d+(\.\d+){0,2}$")
 MODRINTH_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://modrinth\.com/'
     r'(mod|datapack|resourcepack|shader|plugin)/'
@@ -30,7 +30,7 @@ CURSEFORGE_LINK_REGEX = re.compile(
     r'\[.*?\]\(https://www\.curseforge\.com/minecraft/mc-mods/([a-z0-9_\-]+)\)'
 )
 
-ONE_YEAR_AGO = datetime.now() - timedelta(days=365)
+ONE_YEAR_AGO = datetime.now(timezone.utc) - timedelta(days=365)
 
 
 # --------------------------------------------------
@@ -68,8 +68,9 @@ def fetch_latest_modrinth(slug: str):
                     continue
 
             for gv in v.get("game_versions", []):
-                if VERSION_REGEX.match(gv):
-                    supported.append((gv, v["date_published"]))
+                if not VERSION_REGEX.match(gv):
+                    continue
+                supported.append((gv, v["date_published"]))
 
         if not supported:
             return "N/A", None
@@ -103,8 +104,9 @@ def fetch_latest_curseforge(project_id: int):
 
         for f in files:
             for gv in f.get("gameVersions", []):
-                if VERSION_REGEX.match(gv):
-                    supported.append((gv, f["fileDate"]))
+                if not VERSION_REGEX.match(gv):
+                    continue
+                supported.append((gv, f["fileDate"]))
 
         if not supported:
             return "N/A", None
@@ -230,3 +232,4 @@ def write_updated_row(slug, latest, iso_date, parts,
 # --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
+
