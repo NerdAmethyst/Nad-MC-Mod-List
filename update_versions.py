@@ -160,4 +160,73 @@ def update_readme():
         # --- Modrinth ---
         m = MODRINTH_LINK_REGEX.search(line)
         if m:
-            slug =
+            slug = m.group(2)
+            latest, iso_date = fetch_latest_modrinth(slug)
+            write_updated_row(slug, latest, iso_date, parts,
+                              updated_lines, game_col, last_updated_col, outdated_col,
+                              source="Modrinth")
+            continue
+
+        # --- CurseForge ---
+        m = CURSEFORGE_LINK_REGEX.search(line)
+        if m:
+            slug = m.group(1)
+            project_id = CURSEFORGE_PROJECT_IDS.get(slug)
+
+            if not project_id:
+                print(f"\033[93m⚠️ No CurseForge ID for '{slug}'\033[0m")
+                updated_lines.append(line)
+                continue
+
+            latest, iso_date = fetch_latest_curseforge(project_id)
+            write_updated_row(slug, latest, iso_date, parts,
+                              updated_lines, game_col, last_updated_col, outdated_col,
+                              source="CurseForge")
+            continue
+
+        # Unchanged line
+        updated_lines.append(line)
+
+    # Write only if changed
+    new = "".join(updated_lines)
+    if new != old_content:
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new)
+        print("\033[92m✅ README.md updated.\033[0m")
+    else:
+        print("\033[93mℹ️ No changes to write.\033[0m")
+
+
+# --------------------------------------------------
+# Helper: write updated table row
+# --------------------------------------------------
+def write_updated_row(slug, latest, iso_date, parts,
+                      updated_lines, game_col, last_updated_col, outdated_col,
+                      source=""):
+
+    if iso_date:
+        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
+        last_updated = dt.date().isoformat()
+        outdated = "⚠️" if dt < ONE_YEAR_AGO else ""
+    else:
+        last_updated = ""
+        outdated = ""
+
+    old = parts[game_col]
+
+    parts[game_col] = latest
+    parts[last_updated_col] = last_updated
+    parts[outdated_col] = outdated
+
+    updated_line = "| " + " | ".join(parts) + " |\n"
+    updated_lines.append(updated_line)
+
+    if old != latest:
+        print(f"\033[92m✓ Updated {source} '{slug}': {old} → {latest}\033[0m")
+    else:
+        print(f"\033[93mℹ️ {source} '{slug}' already at {latest}\033[0m")
+
+
+# --------------------------------------------------
+if __name__ == "__main__":
+    update_readme()
