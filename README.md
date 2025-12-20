@@ -10,7 +10,7 @@
 <br>
 Personal list of mods, shaders, data packs, & resource packs I use for Minecraft gameplay, such as my [Orilus](https://youtube.com/playlist?list=PLTETkoac7Z1WVLGHW8AaZcvnk0B1AuPYx&si=121QKKjpl3kyYide "Orilus series playlist.") series.<br>
 <br>
-![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.5-white?style=flat-square&logo=creeper1&color=393939)<br>
+![Static Badge](https://custom-icon-badges.demolab.com/badge/Currently%20playing%20on-1.21.10-white?style=flat-square&logo=creeper1&color=393939)<br>
 <br>
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
