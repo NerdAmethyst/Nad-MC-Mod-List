@@ -1,3 +1,4 @@
+# --- This code is made with AI---
 import os
 import re
 from datetime import datetime, timedelta
@@ -233,5 +234,6 @@ def write_updated_row(slug, latest, iso_date, parts,
 # --------------------------------------------------
 if __name__ == "__main__":
     update_readme()
+
 
 
