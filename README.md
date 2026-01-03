@@ -22,7 +22,7 @@ The main purpose of this is to keep track of all the mods I use and used in the 
 <br> 
 **📌‼️** This documentation is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).<br> 
 <br> 
-**📌‼️** The code used for automation for the list is AI-generqated. I don't know have the basic knowledge to write my own and is only intended for personal use. 
+**📌‼️** The code used for automation for the list is AI-generated. I don't know have the basic knowledge to write my own and is only intended for personal use. 
 
 ---
 
