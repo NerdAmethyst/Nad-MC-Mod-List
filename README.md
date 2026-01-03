@@ -14,13 +14,15 @@ Personal list of mods, shaders, data packs, & resource packs I use for Minecraft
 <br>
 ![GitHub last commit](https://img.shields.io/github/last-commit/NerdAmethyst/Nad-s-Mod-List?style=for-the-badge&label=Last%20checked%20and%20updated%20on&labelColor=800080&color=228B22%09)<br>
 <br>
-The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition.<br>
+The main purpose of this is to keep track of all the mods I use and used in the past for future updates. This tracks the latest version of the mods available for the latest game releases for Minecraft: Java Edition. It is intended for the my personal use.<br>
 
 #
 
 **📌‼️** The mods, shader packs, resource packs, and data packs included in the list belongs to their respective authors and are licensed separately. I have no affiliation with any included in the list nor any of the authors/owners.<br>
 <br> 
-**📌‼️** This documentation is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+**📌‼️** This documentation is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).<br> 
+<br> 
+**📌‼️** The code used for automation for the list is AI-generqated. I don't know have the basic knowledge to write my own and is only intended for personal use. 
 
 ---
 
