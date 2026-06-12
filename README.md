@@ -111,7 +111,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🗃Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** | **Last Updated** | **Outdated** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- | :--------------: | :----------: |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 26.1.2 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-06-04 |  |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 26.1.2 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-06-11 |  |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 26.1.2 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* | 2026-04-05 |  |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 26.1.2 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* | 2026-03-26 |  |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 26.1.2 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* | 2026-06-07 |  |
