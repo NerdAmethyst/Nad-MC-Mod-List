@@ -403,7 +403,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- | :--------------: | :----------: |
 | [Amethyst Shaders](https://www.curseforge.com/minecraft/shaders/amethyst-shaders) | 1.3 | 26.2 |  | ⏺️ |  | 2025-11-23 |  |
 | [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | 26.2 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> | 2025-11-23 |  |
-| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.2 | Low | ⏺️ |  | 2025-11-23 |  |
+| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.2 | Low | ⏺️ |  | 2026-07-04 |  |
 | [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | 26.1.2 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> | 2026-04-14 |  |
 
 ###### [Shaders »](#Shaders)
