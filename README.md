@@ -223,7 +223,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## ⚙Vanilla+ Tweaks
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** | **Last Updated** | **Outdated** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- | :--------------: | :----------: |
-| [Boids](https://modrinth.com/mod/boids) | [Tomate0613](https://modrinth.com/user/Tomate0613) | 26.1 | ❌ | 🟠 | Boids simulation for flocking fish | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-03-29 |  |
+| [Boids](https://modrinth.com/mod/boids) | [Tomate0613](https://modrinth.com/user/Tomate0613) | 26.2 | ❌ | 🟠 | Boids simulation for flocking fish | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-07-18 |  |
 | [Crying Portals](https://modrinth.com/mod/crying-portals) | [Serilum](https://modrinth.com/user/Serilum) | 26.2 | ❌ | 🟠 | Allows the creation of nether portals with crying obsidian blocks. | [Collective](https://modrinth.com/mod/collective) | 2026-06-18 |  |
 | [Fabric Seasons](https://modrinth.com/mod/fabric-seasons) | [D4rkness_King](https://modrinth.com/user/D4rkness_King) | 1.21.1 | ❌ | 🟡 | A simple mod that adds seasons to the game, dynamically changing biomes as you play. ***Do not use alongside Serene Seasons.*** | [Fabric API](https://modrinth.com/mod/fabric-api) | 2024-10-06 | ⚠️ |
 | [Serene Seasons](https://modrinth.com/mod/serene-seasons) | [Adubbz](https://modrinth.com/user/Adubbz) | 26.2 | ❌ | 🟠 | A Minecraft mod that adds seasons. Alternative to **Fabric Seasons**. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[GlitchCore](https://modrinth.com/mod/glitchcore) | 2026-07-01 |  |
@@ -401,7 +401,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- | :--------------: | :----------: |
 | [Amethyst Shaders](https://www.curseforge.com/minecraft/shaders/amethyst-shaders) | 1.3 | 26.2 |  | ⏺️ |  | 2025-11-23 |  |
 | [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | 26.2 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> | 2025-11-23 |  |
-| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.2 | Low | ⏺️ |  | 2026-07-04 |  |
+| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.2 | Low | ⏺️ |  | 2026-07-18 |  |
 | [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | 26.1.2 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> | 2026-04-14 |  |
 
 ###### [Shaders »](#Shaders)
