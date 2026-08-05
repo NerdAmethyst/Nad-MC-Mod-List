@@ -131,7 +131,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Sodium Options API](https://modrinth.com/mod/sodium-options-api) | [Txni](https://modrinth.com/user/Txni) | 1.21.5 | ⏺️ | 🟢 | Config API for adding Sodium options with a better categories menu. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Sodium](https://modrinth.com/mod/sodium)<br> 🔸[Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | 2025-04-10 | ⚠️ |
 | [WalksyLib](https://modrinth.com/mod/walksylib) | [Walksy](https://modrinth.com/user/Walksy) | 26.2 | ❌ | 🟡 | A config / utility library for Walksy's mods | [*Mod Menu**](https://modrinth.com/mod/modmenu) | 2026-06-26 |  |
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | [isxander](https://modrinth.com/user/isxander) | 26.2 | ✅ | 🟢 | A builder-based configuration library for Minecraft. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-07-19 |  |
-| [YUNG's API](https://modrinth.com/mod/yungs-api) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 26.1.2 | ❌ | 🟠 | Library mod for YUNG's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-06-23 |  |
+| [YUNG's API](https://modrinth.com/mod/yungs-api) | [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) | 26.1.2 | ❌ | 🟠 | Library mod for YUNG's mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-08-04 |  |
 
 ###### [Mod Categories »](#Categories)
 ###### &nbsp;&nbsp; ⌊ &nbsp; [Back to Lists »](#Lists)
