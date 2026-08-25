@@ -294,7 +294,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🛠Utility Mods
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** | **Last Updated** | **Outdated** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- | :--------------: | :----------: |
-| [Axiom](https://modrinth.com/mod/axiom) | [Moulberry](https://modrinth.com/user/Moulberry) | 26.2 | ✅ | 🟢 | The all-in-one tool for editing Minecraft Worlds. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-06-22 |  |
+| [Axiom](https://modrinth.com/mod/axiom) | [Moulberry](https://modrinth.com/user/Moulberry) | 26.2 | ✅ | 🟢 | The all-in-one tool for editing Minecraft Worlds. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-08-24 |  |
 | [Bobby](https://modrinth.com/mod/bobby) | [Johni0702](https://modrinth.com/user/Johni0702) | 26.2 | ❌ | 🟠 | Allows for render distances greater than the server's view-distance. | 🔸[Cloth Config API](https://modrinth.com/mod/cloth-config)<br> 🔸[*Sodium**](https://modrinth.com/mod/sodium)<br> 🔸[*Mod Menu**](https://modrinth.com/mod/modmenu) | 2026-07-12 |  |
 | [Chunky](https://modrinth.com/plugin/chunky) | [pop4959](https://modrinth.com/user/pop4959) | 26.2 | ❌ | 🟠 | Pre-generates chunks, quickly and efficiently. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-05-04 |  |
 | [Controlling](https://modrinth.com/mod/controlling) | [jaredlll08](https://modrinth.com/user/jaredlll08) | 26.2 | ✅ | 🟡 | Adds a search bar to the Key-Bindings menu. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Searchables](https://modrinth.com/mod/searchables) | 2026-06-17 |  |
