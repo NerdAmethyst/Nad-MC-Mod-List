@@ -111,7 +111,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 ## 🗃Libraries & APIs
 | **Name** | **Author** | **Game Version** | **Status** | **Priority** | **Description** | **Dependencies** | **Last Updated** | **Outdated** |
 | :------: | :--------: | :--------------: | :--------: | :----------: | :-------------- | :--------------- | :--------------: | :----------: |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 26.3 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-09-18 |  |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | [MaxNeedsSnacks](https://modrinth.com/user/MaxNeedsSnacks) | 26.3 | ✅ | 🟡 | An intermediary api aimed to ease developing multiplatform mods. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-09-26 |  |
 | [bad packets](https://modrinth.com/mod/badpackets) | [deirn](https://modrinth.com/user/deirn) | 26.2 | ✅ | 🟡 | Bad Packets allows packet messaging between different modding platforms. | *none* | 2026-04-05 |  |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | [shedaniel](https://modrinth.com/user/shedaniel) | 26.3 | ✅ | 🟢 | Configuration Library for Minecraft Mods. | *none* | 2026-09-23 |  |
 | [Collective](https://modrinth.com/mod/collective) | [Serilum](https://modrinth.com/user/Serilum) | 26.3 | ✅ | 🟡 | Collective is a shared library with common code for all of Serilum's mods. | *none* | 2026-09-21 |  |
@@ -122,7 +122,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | [Fuzs](https://modrinth.com/user/Fuzs) | 26.3 | ✅ | 🟢 | NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-09-21 |  |
 | [Fzzy Config](https://modrinth.com/mod/fzzy-config) | [fzzyhmstrs](https://modrinth.com/user/fzzyhmstrs) | 26.3 | ✅ | 🟢 | Config API with automatic GUIs, powerful validation options, server-client sync, and more. | 🔸[Fabric API](https://modrinth.com/mod/fabric-api)<br> 🔸[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | 2026-09-24 |  |
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | [Adubbz](https://modrinth.com/user/Adubbz) | 26.3 | ❌ | 🟡 | A library mod aimed at abstracting mod loaders and providing various utilities for Glitchfiend mods. | *none* | 2026-09-21 |  |
-| [Lithostitched](https://modrinth.com/mod/lithostitched) | [Apollo](https://modrinth.com/user/Apollo) | 26.3 | ❌ | 🔴 | Library mod with new configurability and compatibility enhancements for worldgen. | *none* | 2026-09-18 |  |
+| [Lithostitched](https://modrinth.com/mod/lithostitched) | [Apollo](https://modrinth.com/user/Apollo) | 26.3 | ❌ | 🔴 | Library mod with new configurability and compatibility enhancements for worldgen. | *none* | 2026-09-26 |  |
 | [MaLiLib](https://modrinth.com/mod/malilib) | [masa](https://modrinth.com/user/masa) | 26.3 | ✅ | 🔴 | A library mod for client-side mods. Contains most of the common/shared code of masa's client mods, and adds some inter-operation support between the dependent mods. | *none* | 2026-09-22 |  |
 | [M.R.U.](https://modrinth.com/mod/mru) | [IMB11](https://modrinth.com/user/IMB11) | 26.3 | ✅ | 🟡 | A library mod used by IMB11's mods to function. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-09-18 |  |
 | [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | [glisco](https://modrinth.com/user/glisco) | 26.2 | ❌ | 🟡 | A general utility, GUI and config library for modding on Fabric and Quilt. | [Fabric API](https://modrinth.com/mod/fabric-api) | 2026-08-19 |  |
@@ -401,7 +401,7 @@ I primarily download most of the mods from [Modrinth](https://modrinth.com "Only
 | :------: | :----------------: | :--------------: | :----------: | :--------: | :----------- | :--------------: | :----------: |
 | [Amethyst Shaders](https://www.curseforge.com/minecraft/shaders/amethyst-shaders) | 1.3 | 26.2 |  | ⏺️ |  | 2025-11-23 |  |
 | [Bliss Shaders](https://modrinth.com/shader/bliss-shader) | 1.3 | 26.3 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[❔] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[❔] Hardcoded Metals</li></ul> | 2025-11-23 |  |
-| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.2 | Low | ⏺️ |  | 2026-08-01 |  |
+| [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla) | 1.3 | 26.3 | Low | ⏺️ |  | 2026-09-26 |  |
 | [Photon Shader](https://modrinth.com/shader/photon-shader) | 1.3 | 26.1.2 | Medium | ⏺️ | <ul><li>[✔️] Porosity</li><li>[✔️] Subsurface Scattering (SSS)</li><li>[✔️] Emission</li><li>[✔️] MAterial AO (Ambient Occlusion)</li><li>[✔️] POM (Parallax Occlusion Mapping)</li><li>[✔️] Hardcoded Metals</li></ul> | 2026-04-14 |  |
 
 ###### [Shaders »](#Shaders)
